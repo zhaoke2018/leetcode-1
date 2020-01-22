@@ -1,4 +1,5 @@
 # 目录(日期顺序)
+1.22.2020 3. Longest Substring Without Repeating Characters and 494. Target Sum
 
 1.20.2020 42. Trapping Rain Water[https://leetcode.com/problems/trapping-rain-water/] and 841. Keys and Rooms[https://leetcode.com/problems/keys-and-rooms/]
 
