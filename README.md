@@ -4,7 +4,7 @@
 
 1.16.2020 572. Subtree of Another Tree[https://leetcode.com/problems/subtree-of-another-tree/] and 994. Rotting Oranges[https://leetcode.com/problems/rotting-oranges/]
 
-1.15.2020 98. Validate Binary Search Tree[https://leetcode.com/problems/validate-binary-search-tree/] and 1162. As Far from Land as Possible
+1.15.2020 98. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) and 1162. As Far from Land as Possible
 
 1.13.2020 257. Binary Tree Paths and 739. Daily Temperatures
 
