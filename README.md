@@ -1,5 +1,5 @@
 # 目录(日期顺序)[题号顺序](#contact_form)
-1.28.2020 [113. Path Sum II](./513.md) and [513. Find Bottom Left Tree Value](./513.md)
+1.28.2020 [113. Path Sum II](./113.md) and [513. Find Bottom Left Tree Value](./513.md)
 
 1.27.2020 343. Integer Break and 1315. Sum of Nodes with Even-Valued Grandparent
 
