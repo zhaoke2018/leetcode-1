@@ -1,5 +1,14 @@
 
 
+- https://leetcode.com/problems/combination-sum/ backtracking/medium
+  - 从C数组里,找出所有和为T的组合,每个数字可以用多次.比如C中只有一个2,但是你可以在solution里面用2次2.
+
+
+
+
+
+
+
 ```py
 from typing import List
 

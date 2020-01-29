@@ -1,5 +1,6 @@
 - [基本信息](#%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af)
 - [Backtracking by me](#backtracking-by-me)
+- [xxx](#xxx)
 
 
 
@@ -39,3 +40,29 @@ class Solution:
 sol = Solution().wordBreak("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 
 ["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"])
 ```
+
+
+## xxx
+
+
+
+- follow-up 返回所有的拆分组合. https://leetcode.com/problems/word-break-ii/
+
+```py
+# 超时! 需要加入 memo 功能!
+class Solution:
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        wdset = set(wordDict)
+        def checkReg(s):
+            for i in range(1, len(s)):
+                if s[:i] in wdset and s[i:] in wdset:
+                    return True
+                elif s[:i] in wdset and checkReg(s[i:]):
+                    return True
+            return False
+        
+        if s in wdset:
+            return True
+        return checkReg(s)
+```
+

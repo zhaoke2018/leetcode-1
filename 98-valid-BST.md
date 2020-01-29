@@ -25,7 +25,10 @@ TODO
 ```
 
 
-
+https://leetcode.com/problems/validate-binary-search-tree/solution/
+解法很多，但是可以归类一下。
+思想上，分为 inorder 和。。。
+实现上，iteration 和 recursion
 
 
 

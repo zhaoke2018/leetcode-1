@@ -1,3 +1,92 @@
+- [Intro](#intro)
+- [DP](#dp)
+- [Recursion By John](#recursion-by-john)
+
+
+
+
+
+## Intro
+
+
+range0开始没通过的那个，应该是有空字符串的原因！  
+
+
+
+- https://leetcode.com/problems/concatenated-words/
+  - Given a list of words (without duplicates), returns all concatenated words in the given list of words.
+  - 输入string dict,返回dict中所有拼接而成的字符串.["big","bi","g"],那么就返回["big"].
+  - comprise 包含.
+  - 好像,把所有子集和拼不出的字符串去掉就行了.
+
+## DP
+
+
+
+- 给定一个字符串数组,返回数组中能够自组合的长字符串 https://leetcode.com/problems/concatenated-words/
+  - 不管使用何种验证逻辑, 本题的关键关于 “拆解单词,并验证子集是否在words中”
+- DP / DFS / Trie
+  - 本题使用 DFS 容易理解一些, DP的思想并不是很明显.
+
+
+
+- 知识点
+1. set 可以加快查找速度. but why?
+  - hashset 可以直接定位, 而不用遍历!
+2. 从 0  开始 range 会在某些情况下报错, 是因为那些情况中有 空字符串, 直接导致所有情况都通过. **所以必须从1开始range**
+3. 为啥这算是 DFS? 对于每一个 word, 将其验证直到通过. 而不是每个 word 都先遍历前 n 个.
+  - 其实说是普通遍历也不为过.
+
+```py
+# DFS
+def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
+    wordset = set(words) # 不使用 set 将会超时
+    
+    def dfs(word):
+        for i in range(1, len(word)): # 一分两半, 进行递归
+            prefix = word[:i]
+            suffix = word[i:]
+            if prefix in wordset and suffix in wordset:
+                return True
+            if prefix in wordset and dfs(suffix): # i 从小到大遍历, 因此不用 dfs(prefix) 了
+                return True
+        return False
+    
+    res = []
+    for word in words:
+        if dfs(word):
+            res.append(word)
+    return res
+```
+
+```py
+class Solution:
+    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
+        s = set(words)
+        
+        memo = {}
+        def isConcatenatedWord(w): # 对于每个单词
+            if w in memo: return memo[w] # 记忆化可以省去以下的计算
+            
+            for i in range(1, len(w)): # 拆解单词, 并验证
+                if w[:i] not in s: continue
+                
+                r = w[i:]
+                if r in s or isConcatenatedWord(r): # 如果 word局部r 在set中 or word局部r所有子集 都在set中,就缓存
+                    memo[w] = True
+                    return True
+                
+            memo[w] = False
+            return False
+        
+        return filter(isConcatenatedWord, words)
+```
+
+
+
+
+
+## Recursion By John
 
 
 ```py
