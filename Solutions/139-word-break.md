@@ -66,6 +66,22 @@ class Solution:
         return dp[-1]
 ```
 
+- 我也是，怎么这么慢！？明明都是DP，差距怎么这么大？
+```Java
+class Solution {
+    public boolean wordBreak(String s, List<String> wordDict) {
+        boolean[] dp = new boolean[s.length() + 1];
+        dp[0] = true;
+        for (int i = 1; i <= s.length(); i++) {
+            for (int j = 0; j < i; j++) {
+                if (dp[j] == true && wordDict.contains(s.substring(j, i))) dp[i]=true;
+            }
+        }
+        return dp[s.length()];
+        
+    }
+}
+```
 
 ### 还可以用 Trie 辅助?
 
