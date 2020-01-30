@@ -66,7 +66,7 @@ class Solution:
         return dp[-1]
 ```
 
-- 我也是，怎么这么慢！？明明都是DP，差距怎么这么大？
+- 我也是，怎么这么慢！？明明都是DP，差距怎么这么大？-克
 ```Java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
