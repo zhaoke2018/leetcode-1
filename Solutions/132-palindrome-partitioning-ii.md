@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [DP](#dp)
+  - [Memo Palindrome](#memo-palindrome)
+- [Recursion](#recursion)
 
 ## Intro
 
@@ -13,20 +16,11 @@ Output: 1
 Explanation: The palindrome partitioning ["aa","b"] could be produced using 1 cut.
 
 
-- https://leetcode.com/problems/palindrome-partitioning-ii/
-  - 将字符串切割成回文子串,问最小切割次数是?
-  - https://www.geeksforgeeks.org/dynamic-programming-set-17-palindrome-partitioning/
-  - 感觉跟rod cutting 有点像?
+- 将字符串切割成回文子串,问最小切割次数是?
+- https://www.geeksforgeeks.org/dynamic-programming-set-17-palindrome-partitioning/
+- 感觉跟rod cutting 有点像?
 
-```py
-# st[i,j]表示区间(i,j)的回文最小切割次数
-st[i][j] = st[i][mid] + st[mid][j]
 
-# hw[i][j]: 区间是否为回文
-hw[i][j] = hw[i+1][j-1] and hw[i] == hw[j]
-```
-
- 
 
 
 
@@ -36,29 +30,71 @@ hw[i][j] = hw[i+1][j-1] and hw[i] == hw[j]
 
 - dp[i] 表示到 i 需要的最小cut, 且两边都是回文.
 - 感觉有点像区间DP.
+- faster than 26%
+- 优化空间, 将回文判断部分使用 `palin[i][j]` 进行记忆下来.
 
 ```py
 class Solution:
     def minCut(self, s: str) -> int:
-        dp[i] = min(dp[i-1], )
+        n = len(s)
+        dp = [i for i in range(n+1)] # dp[i] 从i后面切开 的最小切割次数
+        # 因为 i 在 s[j:i] 中作为末尾的指针, 所以必须到 n+1
+        
+        for i in range(1, n+1):
+            if self.isPal(s[:i]):
+                dp[i] = 0
+                continue
+            for j in range(i):
+                if self.isPal(s[j:i]): # abcd aba
+                    dp[i] = min(dp[i], dp[j]+1) # 前面是回文
+        
+        return dp[-1]
+    
+    def isPal(self, s):
+        return s == s[::-1]
 ```
 
 
+### Memo Palindrome
 
-- https://leetcode.com/problems/palindrome-partitioning-ii/
-  - 将字符串切割成回文子串,问最小切割次数是?
-  - https://www.geeksforgeeks.org/dynamic-programming-set-17-palindrome-partitioning/
-  - 感觉跟rod cutting 有点像?
+- [TODO] 本段代码尚未调试成功
 
 ```py
-# st[i,j]表示区间(i,j)的回文最小切割次数
-st[i][j] = st[i][mid] + st[mid][j]
+from typing import List
 
-# hw[i][j]: 区间是否为回文
-hw[i][j] = hw[i+1][j-1] and hw[i] == hw[j]
+class Solution:
+    def minCut(self, s: str) -> int:
+        n = len(s)
+        dp = [i for i in range(n+1)] # dp[i] 从i后面切开 的最小切割次数
+        # 因为 i 在 s[j:i] 中作为末尾的指针, 所以必须到 n+1
+        
+        memo_palin = self.memoPalindrome(s) # 缓存
+        print(memo_palin)
+
+        for i in range(1, n+1):
+            if memo_palin[0][i]:
+                print('整个字符串都是回文: 0-', i)
+                dp[i] = 0
+                continue
+            for j in range(i):
+                if memo_palin[j][i]: # abcd aba
+                    print('部分回文: ', j, i)
+                    dp[i] = min(dp[i], dp[j]+1) # 前面是回文
+        
+        print('dp', dp)
+        return dp[-1]
+    
+    def memoPalindrome(self, s) -> List[List[int]]:
+        memo_palin = [[False for _ in range(len(s))] for _ in range(len(s))]
+        for right in range(len(s)):
+            for left in range(right + 1):
+                if s[left] == s[right] and (right - left <= 2 or memo_palin[left + 1][right - 1]):
+                    memo_palin[left][right] = True
+        return memo_palin
+
+sol = Solution().minCut('aabaa')
+print(sol)
 ```
-
- 
 
 
 
