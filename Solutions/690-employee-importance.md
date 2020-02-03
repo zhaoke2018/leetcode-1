@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [xxx](#xxx)
 
 ## Intro
 
@@ -21,3 +22,8 @@ One employee has at most one direct leader and may have several subordinates.
 The maximum number of employees won't exceed 2000.
 
  
+## xxx
+
+- employee id就是数组下标（可以这样假设吗？中间会中断吗？），然后遍历子节点，累加importance，append所有子节点。
+- 此题告诉我们, BFS的最高境界, 就是“心中有树”
+

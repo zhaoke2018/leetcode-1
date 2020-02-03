@@ -1,5 +1,6 @@
 - [Intro](#intro)
 - [Top-Down](#top-down)
+- [DFS Bottom-up by Ke](#dfs-bottom-up-by-ke)
 
 ## Intro
 
@@ -28,7 +29,7 @@ to_delete contains distinct values between 1 and 1000.
 
 ## Top-Down
 
-- [未解之谜]为什么第一个程序里面, 删除节点没有效果, 但是第二个程序就有效呢?
+- [WHY] 为什么第一个程序里面, 删除节点没有效果, 但是第二个程序就有效呢?
 
 
 ```py

@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [xx](#xx)
 
 ## Intro
 
@@ -21,4 +22,13 @@ N will be in the range [1, 100].
 K will be in the range [1, N].
 The length of times will be in the range [1, 6000].
 All edges times[i] = (u, v, w) will have 1 <= u, v <= N and 0 <= w <= 100.
+
+
+
+## xx
+
+
+- BFS直到所有节点都visited，返回层数即可。
+
+
 

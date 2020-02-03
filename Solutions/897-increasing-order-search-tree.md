@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Full Inorder By John](#full-inorder-by-john)
 
 ## Intro
 
@@ -40,4 +41,35 @@ Note:
 
 The number of nodes in the given tree will be between 1 and 100.
 Each node will have a unique integer value from 0 to 1000.
+
+
+
+
+
+- [分析] 将一个 二叉树 转换成只有 右节点 的树. 结构重组. 眼尖的朋友一眼就能看出, 转换后的结果 == inorder 遍历结果.
+- [Full_Inorder思路] 使用 in-order 遍历出一个数组, 然后将 遍历结果 连接成树即可.
+- [Half_Inorder思路] 也可以一边 in-order 遍历, 一边重组, 处理起来稍微麻烦一点点
+- 考点: python-generator, inorder-traversal.
+
+## Full Inorder By John
+
+```py
+# Python的yield 可以让这一切更优雅
+def increasingBST(self, root):
+    def inorder(node):
+        if node:
+            yield from inorder(node.left) # 记得是递归噢!
+            yield node.val # 使用 yield 来一个个吐出
+            yield from inorder(node.right)
+
+    ans = cur = TreeNode(None)
+
+    for v in inorder(root): # inorder() 返回一个 generator, 是可以遍历的!
+        cur.right = TreeNode(v)
+        cur = cur.right
+
+    return ans.right
+```
+
+
 

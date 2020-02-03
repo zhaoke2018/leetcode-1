@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [朴素遍历](#%e6%9c%b4%e7%b4%a0%e9%81%8d%e5%8e%86)
 
 ## Intro
 
@@ -49,3 +50,36 @@ Explanation: You started from the point (0,0) and you can cut off the tree in (0
 
  
 Hint: size of the given matrix will not exceed 50x50.
+
+
+
+## 朴素遍历
+
+
+- 在一片 2d 森林中从矮到高砍树. 如果能一直砍完所有的树, 则返回一共要走多少步; 如果不能, 就返回-1. 砍完数, 原数字变为1, 0是不可以走的地方.
+  - hard / Amazon
+  - bfs / A* / Hadlock's
+  - 解法 https://leetcode.com/articles/cutoff-trees-for-golf-event/
+
+
+```py
+class Solution:
+    def cutOffTree(self, forest: List[List[int]]) -> int:
+        steps = 0 # 当前走了多少步
+        area = len(forest) * len(forest[0]) # 森林面积
+
+        # 如果出现了路分叉, 选择数字较小的那条路即可.
+        Q = collections.deque([forest[0][0]])
+        while Q:
+            curr = Q.popleft()
+            find_next_smallest_spot = "TODO"
+            if find_next_smallest_spot:
+                steps += 1
+                Q.append()
+                forest[current_spot] = 1
+            else: # 找不到, 到绝路了
+                return steps if forest_doesnot_have_number_above_1 else -1
+
+```
+
+

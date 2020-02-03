@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [xxx](#xxx)
 
 ## Intro
 
@@ -34,3 +35,8 @@ The target node is a node in the tree.
 0 <= K <= 1000.
 
 
+## xxx
+
+- 找子树中的节点很容易，关键是如何逆向找呢？
+- 肯定是要从目标节点出发的！
+- 先建立一个graph，然后BFS就搞定了！不要拘泥于tree，换一个形式，削铁如泥。

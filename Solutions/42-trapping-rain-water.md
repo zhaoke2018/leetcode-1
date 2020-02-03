@@ -1,4 +1,8 @@
 - [Intro](#intro)
+- [DP By John](#dp-by-john)
+- [Stack](#stack)
+- [Two Pointers](#two-pointers)
+- [Other](#other)
 
 ## Intro
 

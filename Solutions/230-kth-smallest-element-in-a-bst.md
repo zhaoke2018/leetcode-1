@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Inorder By John](#inorder-by-john)
+- [Iteration By John](#iteration-by-john)
 
 ## Intro
 
@@ -30,3 +32,48 @@ Output: 3
 
 Follow up:
 What if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently? How would you optimize the kthSmallest routine?
+
+
+
+## Inorder By John
+
+
+- BST 的 inorder traversal 就是一个 sorted array, 所以本题考的就是 inorder traversal!
+
+```py
+def kthSmallest(self, root: TreeNode, k: int) -> int:
+    def inorder(r):
+        return inorder(r.left) + [r.val] + inorder(r.right) if r else []
+    return inorder(root)[k-1]
+```
+
+
+## Iteration By John
+
+- 本题也可以一边遍历一边找元素
+- Faster than 99%
+
+
+```py
+class Solution:
+    def kthSmallest(self, root, k):
+        stack = []
+
+        while True:
+            # enstack all root, and process left!
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            k -= 1
+            if k == 0:
+                return root.val
+            root = root.right
+```
+
+
+
+
+
+
+
