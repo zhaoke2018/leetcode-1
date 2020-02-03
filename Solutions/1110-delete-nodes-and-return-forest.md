@@ -83,7 +83,42 @@ class Solution:
         return res
 ```
 
-
+## DFS Bottom-up by Ke
+```Java
+class Solution {
+    List<TreeNode> res = new ArrayList();
+    int[] to_delete;
+    public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
+        this.to_delete = to_delete;
+        TreeNode node = dfs(root);
+        if (node != null) {
+            res.add(node);
+        }
+        return res;
+    }
+    private TreeNode dfs(TreeNode root) {
+        if (root == null) return null;
+        root.left = dfs(root.left);
+        root.right = dfs(root.right);
+        if (contains(to_delete, root.val)) {
+            if (root.left != null) res.add(root.left);
+            if (root.right != null) res.add(root.right);
+            return null;
+        }
+        return root;
+    }
+    public static boolean contains(final int[] array, final int v) {
+        boolean result = false;
+        for(int i : array){
+            if(i == v){
+                result = true;
+                break;
+            }
+        }
+        return result;
+    }
+}
+```
 
 
 
