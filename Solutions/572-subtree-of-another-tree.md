@@ -56,6 +56,7 @@ Return false.
 - [Compare_After_Traversal] 两棵树遍历完之后, 直接对比遍历结果即可.
   - [WHY] 单独的一个 preorder 并不能确定一棵树!!!为什么不会报错???
 
+```
       1
      / \
     2   3
@@ -67,6 +68,7 @@ preorder: [1,2,3]
      /
     3
 preorder: [1,2,3]
+``` 
 
 
 
