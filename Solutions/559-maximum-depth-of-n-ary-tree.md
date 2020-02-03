@@ -26,3 +26,18 @@ Constraints:
 The depth of the n-ary tree is less than or equal to 1000.
 The total number of nodes is between [0, 10^4].
 
+
+
+
+- 这道题 BFS / DFS 都能解,不算是 DFS 的典型题.
+- 我想象的 DFS,应该是一路到底,然后记录长度.这里感觉是多路齐下, 更像是 BFS.
+
+```py
+def maxDepth_DFS(self, root):
+    if root is None: return 0
+    if root.children is None or root.children == []:
+        return 1
+    return max(map(self.maxDepth, root.children)) + 1 # 每个子节点递归到底,不断比较出最大的一个
+```
+
+
