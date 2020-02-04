@@ -1,13 +1,8 @@
-
-
-
-#!/usr/bin/python
-# coding:utf-8
-
 import os
 import json
 import bs4
 import requests
+import re
 
 USER_AGENT = r'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
 
@@ -53,6 +48,7 @@ class Spider(object):
         problem_list = problem_dic['stat_status_pairs']
 
         for problem in reversed(problem_list):
+            # if int(problem['stat']['frontend_question_id']) < 6:
             self.get_problem_by_slug(problem['stat']['question__title_slug'], problem['paid_only'])
 
     def get_problem_by_slug(self, slug, paid_only):
@@ -89,8 +85,43 @@ class Spider(object):
         content = resp.json()
 
         question = content['data']['question']
-        self.generate_problem_markdown(question, paid_only)
-        self.generate_readme_form(question)
+        # self.generate_problem_markdown(question, paid_only)
+        # self.generate_readme_form(question)
+
+        self.insert_tags_in_markdown(question, paid_only)
+
+
+    def insert_tags_in_markdown(self, question, paid_only):
+        if paid_only:
+            return
+        file_path = os.path.join(os.getcwd(), '../Solutions', "{}-{}".format(int(question['questionFrontendId']), question['questionTitleSlug']) + ".md")
+        print(question['questionFrontendId'])
+        # find the first '##' that's not 'Intro' or insert in the end.
+        try:
+            with open(file_path, 'r+') as f:
+                content = f.read()
+                # res = re.match(r'##\s(?!Intro)\w*[\s$]', content) # match from beginging
+                res = re.search(r'##\s(?!Intro)\w*[\s$]', content) # match the first occurrence
+                if res:
+                    mid = res.start()
+                    f.seek(mid, 0) # n after 0(the begining of the file)
+                    content = content[:mid-1] + self.newtags(question) + content[mid:] # 新内容肯定比之前的长, 所以不用 truncate 了.
+                    f.write(content)
+                else:
+                    # 在文件末尾写入
+                    f.seek(0, os.SEEK_END) # 0 before 2(the end of the file)
+                    f.write(self.newtags(question))
+        except:
+            print('failed!!!', file_path)
+
+    def newtags(self, question):
+        res = '## Topics\n\n'
+        for tag in question['topicTags']:
+            res += '- `{}`\n'.format(tag['name'])
+        res += '\n\n'
+        return res
+                
+
 
     def generate_problem_markdown(self, question, paid_only):
         # save_path = os.path.join(self.path, "{:0>3d}-{}".format(int(question['questionFrontendId']), question['questionTitleSlug']))
@@ -117,7 +148,7 @@ class Spider(object):
 
 
 if __name__ == '__main__':
-    S = Spider('/Users/yjatt/Projects/leetcode/script')
+    S = Spider('/Users/yjatt/Projects/leetcode/')
     S.run()
 
 
