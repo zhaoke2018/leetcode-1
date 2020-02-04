@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Convert to Array](#convert-to-array)
+- [Two Pointers](#two-pointers)
 
 ## Intro
 
@@ -41,38 +44,41 @@ The number of nodes in the given list will be between 1 and 100.
 ## Topics
 
 - `Linked List`
+- `Two Pointers`
+- `Two Pointers - Fast Slow Pointers`
 
 
-## 快慢指针
 
 
-```py
-class Solution:
-    def middleNode(self, head):
-        fast = slow = head
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
-            
-        return slow
-```
 
 
-## 转化为数组
+## Convert to Array
+
+- [分析] 拿到题就要分奇偶两种情况. 通过双指针很容易解决奇数的情况.
+- [Trap] 最后为什么返回的是一串链表? 因为数组里面存的就是链表元素
 
 
 ```py
-class Solution:
-    def middleNode(self, head):
-        A = [head] # 存的是节点
-        while A[-1].next:
-            A.append(A[-1].next)
-        return A[len(A) // 2] # 最后返回的也是节点
+def middleNode(self, head):
+    A = [head]
+    while A[-1].next:
+        A.append(A[-1].next) # 依次把链表节点存入数组
+    return A[len(A) / 2]
 ```
 
 
 
+## Two Pointers
 
 ```py
-
+def middleNode(self, head):
+    slow = fast = head
+    while fast and fast.next: # 为什么不需要判断 next.next? 因为 tail.next 虽然是 None, 但也是存在的, 不会报错.
+        slow = slow.next
+        fast = fast.next.next
+    return slow
 ```
+
+
+
+

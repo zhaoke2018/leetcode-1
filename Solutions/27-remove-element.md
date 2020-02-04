@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Two Pointers](#two-pointers)
 
 ## Intro
 
@@ -42,5 +44,26 @@ for (int i = 0; i < len; i++) {
 
 - `Array`
 - `Two Pointers`
+
+
+## Two Pointers
+
+
+
+- 在原数组上操作, 删去指定 value 的所有节点, 返回最终数组长度. 要求只能用O(1) extra memory.
+
+- `Two Pointers` 指针i用来记录新数组下标, 指针j用来遍历找到符合条件的元素.
+  - i <= j, 所以不用担心错误覆盖.
+
+```py
+def removeElement(self, nums: List[int], val: int) -> int:
+    i = 0
+    for j in range(len(nums)):
+        if nums[j] != val:
+            nums[i] = nums[j] # write all valid number into i sequel
+            i += 1
+    return i
+```
+
 
 
