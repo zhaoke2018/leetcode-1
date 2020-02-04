@@ -85,10 +85,10 @@ class Spider(object):
         content = resp.json()
 
         question = content['data']['question']
+
         # self.generate_problem_markdown(question, paid_only)
         # self.generate_readme_form(question)
-
-        self.insert_tags_in_markdown(question, paid_only)
+        # self.insert_tags_in_markdown(question, paid_only)
 
 
     def insert_tags_in_markdown(self, question, paid_only):
