@@ -50,3 +50,10 @@ def isIsomorphic(self, s: str, t: str) -> bool:
 
 
 - 通常的follow-ups是3+个string,所以考虑通用解就可以了.
+
+
+## Topics
+
+- `Hash Table`
+
+

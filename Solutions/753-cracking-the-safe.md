@@ -29,3 +29,11 @@ k will be in the range [1, 10].
 k^n will be at most 4096.
 
  
+
+
+## Topics
+
+- `Math`
+- `Depth-first Search`
+
+

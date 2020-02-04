@@ -42,3 +42,11 @@ Could you minimize the number of calls to rand7()?
 
 
 
+
+
+## Topics
+
+- `Random`
+- `Rejection Sampling`
+
+

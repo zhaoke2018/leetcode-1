@@ -15,6 +15,13 @@ Note:
 
 Both of the given trees will have between 1 and 100 nodes.
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+
 ## Recursion By John
 
 

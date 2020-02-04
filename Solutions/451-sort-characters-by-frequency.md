@@ -41,3 +41,11 @@ Explanation:
 "bbaA" is also a valid answer, but "Aabb" is incorrect.
 Note that 'A' and 'a' are treated as two different characters.
 
+
+
+## Topics
+
+- `Hash Table`
+- `Heap`
+
+

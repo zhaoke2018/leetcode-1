@@ -47,3 +47,11 @@ Note that the starting and ending square can be anywhere in the grid.
 Note:
 
 1 <= grid.length * grid[0].length <= 20
+
+
+## Topics
+
+- `Backtracking`
+- `Depth-first Search`
+
+

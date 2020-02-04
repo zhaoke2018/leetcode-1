@@ -33,3 +33,10 @@ Constraints:
 order.length == 26
 All characters in words[i] and order are English lowercase letters.
 
+
+
+## Topics
+
+- `Hash Table`
+
+

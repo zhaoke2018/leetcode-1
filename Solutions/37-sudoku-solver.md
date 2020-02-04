@@ -32,6 +32,13 @@ The given board size is always 9x9.
 
 
 
+
+## Topics
+
+- `Hash Table`
+- `Backtracking`
+
+
 ## Backtacking by John
 
 

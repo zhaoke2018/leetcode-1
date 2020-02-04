@@ -17,3 +17,11 @@ return 2.
 
 
 Note: You may assume the string contain only lowercase letters.
+
+
+## Topics
+
+- `Hash Table`
+- `String`
+
+

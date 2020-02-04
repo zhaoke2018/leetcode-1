@@ -23,3 +23,11 @@ Explanation: By calling next repeatedly until hasNext returns false,
 
 
 
+
+
+## Topics
+
+- `Stack`
+- `Design`
+
+

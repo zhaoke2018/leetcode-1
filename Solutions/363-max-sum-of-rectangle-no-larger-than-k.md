@@ -15,3 +15,12 @@ Note:
 
 The rectangle inside the matrix must have an area > 0.
 What if the number of rows is much larger than the number of columns?
+
+
+## Topics
+
+- `Binary Search`
+- `Dynamic Programming`
+- `Queue`
+
+

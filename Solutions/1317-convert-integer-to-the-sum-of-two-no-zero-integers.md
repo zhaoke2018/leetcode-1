@@ -42,3 +42,10 @@ Output: [11,999]
 Constraints:
 
 2 <= n <= 10^4
+
+
+## Topics
+
+- `Math`
+
+

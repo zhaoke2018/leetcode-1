@@ -35,3 +35,11 @@ Constraints:
 The number of nodes in the given tree is less than 6000.
 -100 <= node.val <= 100
 
+
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+

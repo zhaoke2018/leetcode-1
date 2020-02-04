@@ -39,3 +39,11 @@ Constraints:
 0 <= upper, lower <= colsum.length
 0 <= colsum[i] <= 2
 
+
+
+## Topics
+
+- `Math`
+- `Greedy`
+
+

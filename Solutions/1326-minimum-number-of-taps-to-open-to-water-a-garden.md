@@ -49,3 +49,11 @@ Constraints:
 1 <= n <= 10^4
 ranges.length == n + 1
 0 <= ranges[i] <= 100
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Greedy`
+
+

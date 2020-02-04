@@ -39,6 +39,13 @@ Input:     1         1
 
 Output: false
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+
 ## 思路对比
 
 - [思路] 递归判断两个树是否每层都相等.
@@ -83,6 +90,9 @@ def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if p:
             deq.append((p.left, q.left)) # Why 居然不是镜面形式加入的.
             deq.append((p.right, q.right))
+                
+    return True
+```)
                 
     return True
 ```

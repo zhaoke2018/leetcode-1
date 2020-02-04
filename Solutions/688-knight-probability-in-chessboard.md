@@ -27,3 +27,10 @@ N will be between 1 and 25.
 K will be between 0 and 100.
 The knight always initially starts on the board.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

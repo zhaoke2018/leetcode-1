@@ -44,3 +44,11 @@ Constraints:
 
 0 <= tomatoSlices <= 10^7
 0 <= cheeseSlices <= 10^7
+
+
+## Topics
+
+- `Math`
+- `Greedy`
+
+

@@ -26,3 +26,10 @@ groupSizes.length == n
 1 <= n <= 500
 1 <= groupSizes[i] <= n
 
+
+
+## Topics
+
+- `Greedy`
+
+

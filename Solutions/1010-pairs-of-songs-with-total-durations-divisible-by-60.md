@@ -29,3 +29,10 @@ Note:
 
 1 <= time.length <= 60000
 1 <= time[i] <= 500
+
+
+## Topics
+
+- `Array`
+
+

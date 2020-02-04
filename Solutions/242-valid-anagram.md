@@ -28,3 +28,11 @@ def isAnagram(self, s: str, t: str) -> bool:
     cts, ctt = Counter(s), Counter(t)
     return cts == ctt
 ```
+
+
+## Topics
+
+- `Hash Table`
+- `Sort`
+
+

@@ -27,6 +27,14 @@ return its zigzag level order traversal as:
 
 
 
+
+## Topics
+
+- `Stack`
+- `Tree`
+- `Breadth-first Search`
+
+
 ## Iteration By John
 
 
@@ -57,3 +65,4 @@ def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
             res.append(cur_level)
     return res         
 ```
+

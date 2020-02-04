@@ -26,3 +26,11 @@ There are four ways to split nums into two subarrays.
 The best way is to split it into [7,2,5] and [10,8],
 where the largest sum among the two subarrays is only 18.
 
+
+
+## Topics
+
+- `Binary Search`
+- `Dynamic Programming`
+
+

@@ -32,6 +32,13 @@ The flattened tree should look like:
 
 
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+
 ## xxxx
 
 - Implemented by https://leetcode.com/problems/flatten-binary-tree-to-linked-list/discuss/37154/8-lines-of-python-solution-(reverse-preorder-traversal)

@@ -31,3 +31,10 @@ Note:
 Answers will be accepted as correct if they are within 10^-5 of the correct answer.
 The judging time limit has been reduced for this question.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

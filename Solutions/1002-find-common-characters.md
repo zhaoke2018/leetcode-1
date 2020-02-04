@@ -27,3 +27,11 @@ Note:
 A[i][j] is a lowercase letter
 
 
+
+
+## Topics
+
+- `Array`
+- `Hash Table`
+
+

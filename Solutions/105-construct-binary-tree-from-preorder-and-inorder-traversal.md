@@ -39,6 +39,14 @@ https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-tr
 
 
 
+
+## Topics
+
+- `Array`
+- `Tree`
+- `Depth-first Search`
+
+
 ## Recursion by John
 
 - 利用 inorder 获取 root

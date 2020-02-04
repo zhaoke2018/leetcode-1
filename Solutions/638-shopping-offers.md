@@ -53,3 +53,11 @@ You are not allowed to buy more items than you want, even if that would lower th
 
 - 经典 记忆化搜索
 
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Depth-first Search`
+
+

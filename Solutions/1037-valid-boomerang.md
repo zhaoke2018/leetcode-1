@@ -27,3 +27,10 @@ points[i].length == 2
 
 
  
+
+
+## Topics
+
+- `Math`
+
+

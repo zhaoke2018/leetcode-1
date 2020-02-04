@@ -39,3 +39,10 @@ piles.length <= H <= 10^9
 
 
 
+
+
+## Topics
+
+- `Binary Search`
+
+

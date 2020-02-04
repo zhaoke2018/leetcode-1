@@ -39,3 +39,10 @@ board.length == board[i].length == 8
 board[i][j] is either 'R', '.', 'B', or 'p'
 There is exactly one cell with board[i][j] == 'R'
 
+
+
+## Topics
+
+- `Array`
+
+

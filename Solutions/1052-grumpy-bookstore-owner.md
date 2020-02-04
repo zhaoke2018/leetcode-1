@@ -22,3 +22,11 @@ Note:
 1 <= X <= customers.length == grumpy.length <= 20000
 0 <= customers[i] <= 1000
 0 <= grumpy[i] <= 1
+
+
+## Topics
+
+- `Array`
+- `Sliding Window`
+
+

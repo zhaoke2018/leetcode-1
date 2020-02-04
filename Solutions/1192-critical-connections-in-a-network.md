@@ -23,3 +23,10 @@ n-1 <= connections.length <= 10^5
 connections[i][0] != connections[i][1]
 There are no repeated connections.
 
+
+
+## Topics
+
+- `Depth-first Search`
+
+

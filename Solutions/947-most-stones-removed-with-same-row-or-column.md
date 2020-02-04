@@ -47,6 +47,13 @@ Note:
 - 输入一系列石头的坐标, 如果某石头的同行or同列有石头, 那么它就可以被移除, 问最多可以移除多少石头? https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 
 
+
+## Topics
+
+- `Depth-first Search`
+- `Union Find`
+
+
 ## BFS by Wangchen
 
 - https://buptwc.com/2018/11/25/Leetcode-947-Most-Stones-Removed-with-Same-Row-or-Column/

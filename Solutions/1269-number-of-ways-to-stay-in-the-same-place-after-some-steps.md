@@ -37,3 +37,10 @@ Constraints:
 1 <= steps <= 500
 1 <= arrLen <= 10^6
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

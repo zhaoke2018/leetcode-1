@@ -24,3 +24,10 @@ Constraints:
 
 1 <= n <= 100
 
+
+
+## Topics
+
+- `Math`
+
+

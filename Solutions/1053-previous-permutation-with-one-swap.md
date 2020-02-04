@@ -36,3 +36,11 @@ Note:
 1 <= A.length <= 10000
 1 <= A[i] <= 10000
 
+
+
+## Topics
+
+- `Array`
+- `Greedy`
+
+

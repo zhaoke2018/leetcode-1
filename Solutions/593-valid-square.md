@@ -19,3 +19,10 @@ A valid square has four equal sides with positive length and four equal angles (
 Input points have no order.
 
  
+
+
+## Topics
+
+- `Math`
+
+

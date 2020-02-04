@@ -39,3 +39,10 @@ dp[3] = dp[0] * dp[2] # 1为根的情况，则左子树一定不存在，右子�
 def numTrees(self, n: int) -> int:
     pass
 ```
+
+## Topics
+
+- `Dynamic Programming`
+- `Tree`
+
+

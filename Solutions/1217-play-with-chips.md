@@ -31,3 +31,12 @@ Constraints:
 1 <= chips.length <= 100
 1 <= chips[i] <= 10^9
 
+
+
+## Topics
+
+- `Array`
+- `Math`
+- `Greedy`
+
+

@@ -27,3 +27,11 @@ Constraints:
 1 <= queries[i].length, words[i].length <= 10
 queries[i][j], words[i][j] are English lowercase letters.
 
+
+
+## Topics
+
+- `Array`
+- `String`
+
+

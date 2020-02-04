@@ -34,3 +34,11 @@ Note:
 1 <= A.length <= 100
 A[i] is a permutation of [1, 2, ..., A.length]
 
+
+
+## Topics
+
+- `Array`
+- `Sort`
+
+

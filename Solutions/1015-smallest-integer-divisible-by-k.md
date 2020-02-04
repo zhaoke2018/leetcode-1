@@ -26,3 +26,10 @@ Explanation: The smallest answer is N = 111, which has length 3.
 Note:
 
 1 <= K <= 10^5
+
+
+## Topics
+
+- `Math`
+
+

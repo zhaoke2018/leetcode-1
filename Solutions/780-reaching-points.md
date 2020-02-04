@@ -27,3 +27,10 @@ Note:
 
 sx, sy, tx, ty will all be integers in the range [1, 10^9].
 
+
+
+## Topics
+
+- `Math`
+
+

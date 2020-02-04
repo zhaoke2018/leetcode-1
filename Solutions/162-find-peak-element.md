@@ -22,3 +22,11 @@ Explanation: Your function can return either index number 1 where the peak eleme
 
 Note:
 Your solution should be in logarithmic complexity.
+
+
+## Topics
+
+- `Array`
+- `Binary Search`
+
+

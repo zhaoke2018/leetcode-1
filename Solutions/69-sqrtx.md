@@ -27,6 +27,13 @@ Explanation: The square root of 8 is 2.82842..., and since
 
 
 
+
+## Topics
+
+- `Math`
+- `Binary Search`
+
+
 ## Math
 
 - https://leetcode.com/problems/sqrtx/

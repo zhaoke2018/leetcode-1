@@ -20,6 +20,14 @@ Output: 2
 Explanation: 13 = 4 + 9.
 
 
+
+## Topics
+
+- `Math`
+- `Dynamic Programming`
+- `Breadth-first Search`
+
+
 ## 思路对比
 
 

@@ -24,3 +24,11 @@ root is the root of a binary tree with n nodes and distinct node values from 1 t
 n is odd.
 1 <= x <= n <= 100
 
+
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+

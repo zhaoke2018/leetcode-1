@@ -22,3 +22,10 @@ Constraints:
 1 <= grid.length <= 100
 1 <= grid[0].length <= 100
 grid[i][j] is 0 or 1
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

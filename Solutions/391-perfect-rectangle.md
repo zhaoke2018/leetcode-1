@@ -62,3 +62,9 @@ rectangles = [
 Return false. Because two of the rectangles overlap with each other.
 
  
+
+## Topics
+
+- `Line Sweep`
+
+

@@ -29,3 +29,11 @@ Note:
 0 <= N <= 10^5
 String dominoes contains only 'L', 'R' and '.'
 
+
+
+## Topics
+
+- `Two Pointers`
+- `Dynamic Programming`
+
+

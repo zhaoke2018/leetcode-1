@@ -19,3 +19,11 @@ e
 
 Explanation:
 'e' is the letter that was added.
+
+
+## Topics
+
+- `Hash Table`
+- `Bit Manipulation`
+
+

@@ -19,3 +19,11 @@ arr1.length, arr2.length <= 1000
 Each arr2[i] is distinct.
 Each arr2[i] is in arr1.
 
+
+
+## Topics
+
+- `Array`
+- `Sort`
+
+

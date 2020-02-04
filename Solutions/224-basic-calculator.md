@@ -38,6 +38,13 @@ Do not use the eval built-in library function.
 
 
 
+
+## Topics
+
+- `Math`
+- `Stack`
+
+
 ## Stack + String Reversal
 
 

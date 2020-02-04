@@ -40,3 +40,10 @@ The linked lists must retain their original structure after the function returns
 You may assume there are no cycles anywhere in the entire linked structure.
 Your code should preferably run in O(n) time and use only O(1) memory.
 
+
+
+## Topics
+
+- `Linked List`
+
+

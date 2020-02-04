@@ -31,3 +31,12 @@ Constraints:
 For each query, 0 <= left <= right < len(arr)
 For each query, 2 * threshold > right - left + 1
 The number of queries is at most 10000
+
+
+## Topics
+
+- `Array`
+- `Binary Search`
+- `Segment Tree`
+
+

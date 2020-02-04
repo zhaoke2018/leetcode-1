@@ -29,6 +29,12 @@ The length of path between two nodes is represented by the number of edges betwe
 
 
 
+
+## Topics
+
+- `Tree`
+
+
 ## 基本信息
 
 - 计算二叉树的直径, 其实就是从一个节点到另一个节点的最长距离, 但是这个距离不是节点的数量, 而是节点之间的边的数量. https://leetcode.com/problems/diameter-of-binary-tree/

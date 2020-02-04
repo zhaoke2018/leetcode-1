@@ -35,3 +35,10 @@ def wordPattern(self, pattern: str, str: str) -> bool:
 
 
 
+
+
+## Topics
+
+- `Hash Table`
+
+

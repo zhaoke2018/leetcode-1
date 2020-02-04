@@ -29,3 +29,11 @@ The length of the given array is positive and will not exceed 20.
 The sum of elements in the given array will not exceed 1000.
 Your output answer is guaranteed to be fitted in a 32-bit integer.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Depth-first Search`
+
+

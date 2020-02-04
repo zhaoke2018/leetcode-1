@@ -30,3 +30,12 @@ Note:
 -1000 <= matrix[i] <= 1000
 -10^8 <= target <= 10^8
 
+
+
+## Topics
+
+- `Array`
+- `Dynamic Programming`
+- `Sliding Window`
+
+

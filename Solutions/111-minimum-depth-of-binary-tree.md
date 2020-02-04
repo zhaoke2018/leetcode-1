@@ -19,6 +19,14 @@ Given binary tree [3,9,20,null,null,15,7],
 return its minimum depth = 2.
 
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+- `Breadth-first Search`
+
+
 ## Recursion By John
 
 - [思路] 最小深度，层次遍历过程中，遇到某个节点没有子节点，就可以返回当前层数了。

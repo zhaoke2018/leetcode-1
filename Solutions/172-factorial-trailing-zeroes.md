@@ -16,3 +16,10 @@ Input: 5
 Output: 1
 Explanation: 5! = 120, one trailing zero.
 Note: Your solution should be in logarithmic time complexity.
+
+
+## Topics
+
+- `Math`
+
+

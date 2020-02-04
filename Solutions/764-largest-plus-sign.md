@@ -59,3 +59,10 @@ N will be an integer in the range [1, 500].
 mines will have length at most 5000.
 mines[i] will be length 2 and consist of integers in the range [0, N-1].
 (Additionally, programs submitted in C, C++, or C# will be judged with a slightly smaller time limit.)
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

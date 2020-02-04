@@ -55,6 +55,12 @@ Explanation: You can allocate to the first, second and third child with 1, 2, 1 
 
 
 
+
+## Topics
+
+- `Greedy`
+
+
 ## Greedy
 
 找到最小评分的, 然后周围的都加

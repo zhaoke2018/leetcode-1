@@ -51,6 +51,12 @@ Every string in deadends and the string target will be a string of 4 digits from
 
 
 
+
+## Topics
+
+- `Breadth-first Search`
+
+
 ## Iteration By John
 
 - Open the Lock 初始组合为0000, 避免一些死锁组合, 最少几步正确开锁?
@@ -99,6 +105,11 @@ class Solution:
     def reRotate(self, cur, i):
         curli = list(cur)
         curli[i] = str((int(curli[i]) - 1) % 9) # 将表盘拨动一格
+        return ''.join(curli)
+```
+
+
+ # 将表盘拨动一格
         return ''.join(curli)
 ```
 

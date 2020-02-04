@@ -30,6 +30,14 @@ Bonus points if you could solve it both recursively and iteratively.
 
 
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+- `Breadth-first Search`
+
+
 ## Recursion By John
 
 

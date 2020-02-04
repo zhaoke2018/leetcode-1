@@ -43,3 +43,12 @@ Note:
 All atom names consist of lowercase letters, except for the first character which is uppercase.
 The length of formula will be in the range [1, 1000].
 formula will only consist of letters, digits, and round parentheses, and is a valid formula as defined in the problem.
+
+
+## Topics
+
+- `Hash Table`
+- `Stack`
+- `Recursion`
+
+

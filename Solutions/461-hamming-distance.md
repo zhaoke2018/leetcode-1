@@ -22,3 +22,10 @@ Explanation:
 
 The above arrows point to positions where the corresponding bits are different.
 
+
+
+## Topics
+
+- `Bit Manipulation`
+
+

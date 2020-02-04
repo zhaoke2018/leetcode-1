@@ -26,3 +26,10 @@ Output: 299
 
 Note:
 N is an integer in the range [0, 10^9].
+
+
+## Topics
+
+- `Greedy`
+
+

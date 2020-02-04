@@ -30,3 +30,11 @@ nums2 = [8, 9]
 k = 3
 Output:
 [9, 8, 9]
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Greedy`
+
+

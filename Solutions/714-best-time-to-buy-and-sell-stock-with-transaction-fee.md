@@ -52,3 +52,12 @@ def maxProfit(self, prices: List[int], fee: int) -> int:
     return maxProfit
 ```
 
+
+
+## Topics
+
+- `Array`
+- `Dynamic Programming`
+- `Greedy`
+
+

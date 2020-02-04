@@ -18,3 +18,11 @@ Input:
 4  5 6
 
 Output: 6
+
+
+## Topics
+
+- `Binary Search`
+- `Tree`
+
+

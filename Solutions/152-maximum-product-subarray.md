@@ -44,3 +44,11 @@ def maxProduct(nums):
     for i in xrange(2, numsLen):
         current_max = max(dp[i], nums[i-1]* nums[i])
 ```
+
+
+## Topics
+
+- `Array`
+- `Dynamic Programming`
+
+

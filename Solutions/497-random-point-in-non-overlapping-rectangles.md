@@ -41,3 +41,11 @@ The input is two lists: the subroutines called and their arguments. Solution
 
  
 
+
+
+## Topics
+
+- `Binary Search`
+- `Random`
+
+

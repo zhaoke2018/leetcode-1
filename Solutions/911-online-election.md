@@ -29,3 +29,10 @@ TopVotedCandidate.q is called at most 10000 times per test case.
 TopVotedCandidate.q(int t) is always called with t >= times[0].
 
 
+
+
+## Topics
+
+- `Binary Search`
+
+

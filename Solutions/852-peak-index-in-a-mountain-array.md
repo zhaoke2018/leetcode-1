@@ -27,3 +27,10 @@ Note:
 0 <= A[i] <= 10^6
 A is a mountain, as defined above.
 
+
+
+## Topics
+
+- `Binary Search`
+
+

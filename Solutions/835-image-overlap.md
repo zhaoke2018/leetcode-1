@@ -23,3 +23,10 @@ Notes: 
 1 <= A.length = A[0].length = B.length = B[0].length <= 30
 0 <= A[i][j], B[i][j] <= 1
 
+
+
+## Topics
+
+- `Array`
+
+

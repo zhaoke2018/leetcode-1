@@ -37,3 +37,11 @@ Constraints:
 The given tree will have between 1 and 1000 nodes.
 Each node of the tree will have a distinct value between 1 and 1000.
 
+
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+

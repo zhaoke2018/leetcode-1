@@ -26,3 +26,10 @@ Output: [0]
 Constraints:
 
 1 <= n <= 1000
+
+
+## Topics
+
+- `Array`
+
+

@@ -14,3 +14,10 @@ GetMinKey() - Returns one of the keys with minimal value. If no element exists, 
 
 
 Challenge: Perform all these in O(1) time complexity.
+
+
+## Topics
+
+- `Design`
+
+

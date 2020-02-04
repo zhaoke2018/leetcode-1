@@ -61,3 +61,10 @@ class Solution(object):
 - 这道题目应该类似 https://www.geeksforgeeks.org/weighted-job-scheduling/
 
 
+
+
+## Topics
+
+- `Two Pointers`
+
+

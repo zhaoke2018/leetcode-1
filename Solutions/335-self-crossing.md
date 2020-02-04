@@ -37,3 +37,10 @@ Example 3:
 Input: [1,1,1,1]
 Output: true 
 
+
+
+## Topics
+
+- `Math`
+
+

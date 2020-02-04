@@ -25,3 +25,10 @@ Note:
 1 <= K <= A.length.
 Answers within 10^-6 of the correct answer will be accepted as correct.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

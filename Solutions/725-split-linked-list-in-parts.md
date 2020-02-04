@@ -44,3 +44,10 @@ Note:
 The length of root will be in the range [0, 1000].
 Each value of a node in the input will be an integer in the range [0, 999].
 k will be an integer in the range [1, 50].
+
+
+## Topics
+
+- `Linked List`
+
+

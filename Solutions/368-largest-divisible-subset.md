@@ -20,3 +20,11 @@ Input: [1,2,4,8]
 Output: [1,2,4,8]
 
 
+
+
+## Topics
+
+- `Math`
+- `Dynamic Programming`
+
+

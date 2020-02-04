@@ -33,6 +33,13 @@ A solution set is:
 
 
 
+
+## Topics
+
+- `Array`
+- `Backtracking`
+
+
 ## Recursion
 
 - 从C数组里,找出所有和为T的组合,每个数字可以用多次.比如C中只有一个2,但是你可以在solution里面用2次2.

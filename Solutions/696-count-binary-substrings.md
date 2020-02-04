@@ -24,3 +24,10 @@ Explanation: There are 4 substrings: "10", "01", "10", "01" that have equal numb
 Note:
 s.length will be between 1 and 50,000.
 s will only consist of "0" or "1" characters.
+
+
+## Topics
+
+- `String`
+
+

@@ -48,3 +48,11 @@ Example 2:
 
 Input: s1 = "abcde", s2 = "caebd"
 Output: false
+
+
+## Topics
+
+- `String`
+- `Dynamic Programming`
+
+

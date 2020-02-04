@@ -37,3 +37,11 @@ Note:
 1 <= positions[i][1] <= 10^6.
 
  
+
+
+## Topics
+
+- `Segment Tree`
+- `Ordered Map`
+
+

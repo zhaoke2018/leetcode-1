@@ -49,3 +49,10 @@ Constraints:
 
 2 <= word.length <= 300
 Each word[i] is an English uppercase letter.
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

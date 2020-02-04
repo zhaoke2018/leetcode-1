@@ -28,3 +28,10 @@ Note:
 1 <= N <= 10000
 -2^31 <= answer <= 2^31 - 1  (The answer is guaranteed to fit within a 32-bit integer.)
 
+
+
+## Topics
+
+- `Math`
+
+

@@ -29,3 +29,10 @@ Output:
 2
 
 One possible longest palindromic subsequence is "bb".
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

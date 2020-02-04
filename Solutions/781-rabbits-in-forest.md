@@ -28,3 +28,11 @@ Note:
 answers will have length at most 1000.
 Each answers[i] will be an integer in the range [0, 999].
 
+
+
+## Topics
+
+- `Hash Table`
+- `Math`
+
+

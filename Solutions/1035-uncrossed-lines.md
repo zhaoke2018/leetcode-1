@@ -41,3 +41,10 @@ Note:
 1 <= B.length <= 500
 1 <= A[i], B[i] <= 2000
 
+
+
+## Topics
+
+- `Array`
+
+

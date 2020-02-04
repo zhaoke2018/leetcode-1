@@ -48,6 +48,12 @@ Output: false
 
 
 
+
+## Topics
+
+- `Dynamic Programming`
+
+
 ## DP
 
 - Only faster than 5%! 怎么办?
@@ -105,6 +111,12 @@ class Solution:
             if s[:i] in wordDict and self.reccur(s[i:],wordDict,memo): # 表示 整个s 都可分
                 memo[s]=True
                 return True
+        memo[s]=False
+        return False
+```
+
+
+       return True
         memo[s]=False
         return False
 ```

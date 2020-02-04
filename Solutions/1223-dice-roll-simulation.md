@@ -31,3 +31,10 @@ Constraints:
 rollMax.length == 6
 1 <= rollMax[i] <= 15
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

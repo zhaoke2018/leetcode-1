@@ -26,3 +26,13 @@ Note:
 The input prerequisites is a graph represented by a list of edges, not adjacency matrices. Read more about how a graph is represented.
 You may assume that there are no duplicate edges in the input prerequisites.
 
+
+
+## Topics
+
+- `Depth-first Search`
+- `Breadth-first Search`
+- `Graph`
+- `Topological Sort`
+
+

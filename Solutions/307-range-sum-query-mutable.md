@@ -25,6 +25,13 @@ You may assume the number of calls to update and sumRange function is distribute
   - https://leetcode.com/problems/range-sum-query-mutable/solution/
 
 
+
+## Topics
+
+- `Binary Indexed Tree`
+- `Segment Tree`
+
+
 ## xx
 - https://leetcode.com/problems/range-sum-query-mutable/ binaryIndexedTree / segmentTree
   - 给定一个数组,但是中间会对数组进行更新操作,所以就不能用dp了.mutable就需要segment tree之类的来辅助了.

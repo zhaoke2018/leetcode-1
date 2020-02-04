@@ -36,3 +36,11 @@ Constraints:
 1 <= a * b * c <= 10^18
 It's guaranteed that the result will be in range [1, 2 * 10^9]
 
+
+
+## Topics
+
+- `Math`
+- `Binary Search`
+
+

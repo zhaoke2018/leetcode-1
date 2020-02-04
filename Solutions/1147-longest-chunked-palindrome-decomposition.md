@@ -40,3 +40,11 @@ Constraints:
 
 text consists only of lowercase English characters.
 1 <= text.length <= 1000
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Rolling Hash`
+
+

@@ -31,3 +31,10 @@ Constraints:
 1 <= nums[i] <= 10^5
 1 <= k <= nums.length
 
+
+
+## Topics
+
+- `Two Pointers`
+
+

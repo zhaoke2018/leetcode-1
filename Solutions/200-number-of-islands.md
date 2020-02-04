@@ -29,6 +29,14 @@ Output: 3
 
 
 
+
+## Topics
+
+- `Depth-first Search`
+- `Breadth-first Search`
+- `Union Find`
+
+
 ## DFS
 
 - https://leetcode.com/problems/number-of-islands/discuss/56340/Python-Simple-DFS-Solution

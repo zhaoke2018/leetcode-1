@@ -32,3 +32,9 @@ Constraints:
 0 <= arr1[i], arr2[i] <= 10^9
 
  
+
+## Topics
+
+- `Dynamic Programming`
+
+

@@ -32,3 +32,10 @@ Constraints:
 
 1 <= k <= s.length <= 100.
 s only contains lowercase English letters.
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

@@ -42,3 +42,10 @@ Constraints:
 1 <= grid.length, grid[i].length <= 15
 0 <= grid[i][j] <= 100
 There are at most 25 cells containing gold.
+
+
+## Topics
+
+- `Backtracking`
+
+

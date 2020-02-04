@@ -27,3 +27,12 @@ coordinates[i].length == 2
 -10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4
 coordinates contains no duplicate point.
 
+
+
+## Topics
+
+- `Array`
+- `Math`
+- `Geometry`
+
+

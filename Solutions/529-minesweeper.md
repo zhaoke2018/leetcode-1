@@ -65,11 +65,22 @@ The input board won't be a stage when game is over (some mines have been reveale
 For simplicity, not mentioned rules should be ignored in this problem. For example, you don't need to reveal all the unrevealed mines when the game is over, consider any cases that you will win the game or flag any squares.
 
 
+
+## Topics
+
+- `Depth-first Search`
+- `Breadth-first Search`
+
+
 ## xxx
 
 - 扫雷游戏就是一个BFS程序的事儿！
 - 给定一个棋盘和一个坐标，要求给出click这个坐标之后棋盘的变化。
 - 从点击坐标开始，对于周围的每个坐标，都进行一次搜身（搜索周围），然后将搜身结果更新即可。实现起来可能会因为坐标转换等问题有点麻烦。
+
+
+
+��。
 
 
 

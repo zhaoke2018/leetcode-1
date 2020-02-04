@@ -28,3 +28,10 @@ Note:
 
 The n and k are in the range 1 <= k < n <= 104.
 
+
+
+## Topics
+
+- `Array`
+
+

@@ -58,3 +58,10 @@ The number of rows and columns of grid will each be in the range [1, 50].
 Each grid[i][j] will be either 0 or 1.
 Throughout the described process, there is always a contiguous viral region that will infect strictly more uncontaminated squares in the next round.
 
+
+
+## Topics
+
+- `Depth-first Search`
+
+

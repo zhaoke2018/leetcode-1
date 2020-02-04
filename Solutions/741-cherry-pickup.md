@@ -125,3 +125,10 @@ var cherryPickup = function(grid) {
     return Math.max(0, dp(0, 0, 0));
 }
 ```
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

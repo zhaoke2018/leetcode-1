@@ -23,3 +23,10 @@ Input: "abcabcabcabc"
 Output: True
 Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
 
+
+
+## Topics
+
+- `String`
+
+

@@ -21,3 +21,10 @@ Input: 15
 Output: 4
 Explanation: 15 = 15 = 8 + 7 = 4 + 5 + 6 = 1 + 2 + 3 + 4 + 5
 Note: 1 <= N <= 10 ^ 9.
+
+
+## Topics
+
+- `Math`
+
+

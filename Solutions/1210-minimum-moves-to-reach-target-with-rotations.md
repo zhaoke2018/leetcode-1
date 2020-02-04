@@ -47,3 +47,10 @@ Constraints:
 0 <= grid[i][j] <= 1
 It is guaranteed that the snake starts at empty cells.
 
+
+
+## Topics
+
+- `Breadth-first Search`
+
+

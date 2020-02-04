@@ -24,3 +24,11 @@ Constraints:
 
 1 <= label <= 10^6
 
+
+
+## Topics
+
+- `Math`
+- `Tree`
+
+

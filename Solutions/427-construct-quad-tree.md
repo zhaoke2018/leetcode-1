@@ -20,3 +20,9 @@ Note:
 N is less than 1000 and guaranteened to be a power of 2.
 If you want to know more about the quad tree, you can refer to its wiki.
 
+
+
+## Topics
+
+
+

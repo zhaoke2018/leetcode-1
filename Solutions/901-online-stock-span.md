@@ -35,3 +35,10 @@ There will be at most 150000 calls to StockSpanner.next across all test cases.
 The total time limit for this problem has been reduced by 75% for C++, and 50% for all other languages.
 
 
+
+
+## Topics
+
+- `Stack`
+
+

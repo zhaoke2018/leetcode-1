@@ -34,3 +34,10 @@ nums[i] ≠ 0
  
 Follow up:
 Could you solve it in O(n) time complexity and O(1) extra space complexity?
+
+## Topics
+
+- `Array`
+- `Two Pointers`
+
+

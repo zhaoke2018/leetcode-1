@@ -20,3 +20,11 @@ Example 3:
 
 Input: ")("
 Output: [""]
+
+
+## Topics
+
+- `Depth-first Search`
+- `Breadth-first Search`
+
+

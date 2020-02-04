@@ -42,3 +42,10 @@ king.length == 2
 0 <= king[0], king[1] < 8
 At most one piece is allowed in a cell.
 
+
+
+## Topics
+
+- `Array`
+
+

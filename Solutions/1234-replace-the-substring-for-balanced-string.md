@@ -39,3 +39,11 @@ Constraints:
 s.length is a multiple of 4
 s contains only 'Q', 'W', 'E' and 'R'.
 
+
+
+## Topics
+
+- `Two Pointers`
+- `String`
+
+

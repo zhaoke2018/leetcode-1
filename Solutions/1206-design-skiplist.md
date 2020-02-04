@@ -37,3 +37,10 @@ Constraints:
 
 0 <= num, target <= 20000
 At most 50000 calls will be made to search, add, and erase.
+
+
+## Topics
+
+- `Design`
+
+

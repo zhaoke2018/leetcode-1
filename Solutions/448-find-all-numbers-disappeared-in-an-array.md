@@ -15,3 +15,10 @@ Input:
 Output:
 [5,6]
 
+
+
+## Topics
+
+- `Array`
+
+

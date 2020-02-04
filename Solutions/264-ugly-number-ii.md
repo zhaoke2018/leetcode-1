@@ -15,3 +15,12 @@ Note:  
 
 1 is typically treated as an ugly number.
 n does not exceed 1690.
+
+
+## Topics
+
+- `Math`
+- `Dynamic Programming`
+- `Heap`
+
+

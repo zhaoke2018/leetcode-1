@@ -29,3 +29,11 @@ Constraints:
 There will be at most 10^4 function calls per test.
 It's guaranteed that all calls of the function next are valid.
 
+
+
+## Topics
+
+- `Backtracking`
+- `Design`
+
+

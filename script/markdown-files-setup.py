@@ -48,7 +48,7 @@ class Spider(object):
         problem_list = problem_dic['stat_status_pairs']
 
         for problem in reversed(problem_list):
-            # if int(problem['stat']['frontend_question_id']) < 6:
+            # if int(problem['stat']['frontend_question_id']) == 77:
             self.get_problem_by_slug(problem['stat']['question__title_slug'], problem['paid_only'])
 
     def get_problem_by_slug(self, slug, paid_only):
@@ -94,8 +94,9 @@ class Spider(object):
     def insert_tags_in_markdown(self, question, paid_only):
         if paid_only:
             return
-        file_path = os.path.join(os.getcwd(), '../Solutions', "{}-{}".format(int(question['questionFrontendId']), question['questionTitleSlug']) + ".md")
+        file_path = os.path.join(os.getcwd(), 'Solutions', "{}-{}".format(int(question['questionFrontendId']), question['questionTitleSlug']) + ".md")
         print(question['questionFrontendId'])
+
         # find the first '##' that's not 'Intro' or insert in the end.
         try:
             with open(file_path, 'r+') as f:
@@ -104,8 +105,12 @@ class Spider(object):
                 res = re.search(r'##\s(?!Intro)\w*[\s$]', content) # match the first occurrence
                 if res:
                     mid = res.start()
-                    f.seek(mid, 0) # n after 0(the begining of the file)
-                    content = content[:mid-1] + self.newtags(question) + content[mid:] # 新内容肯定比之前的长, 所以不用 truncate 了.
+                    f.seek(0, 0) # n after 0(the begining of the file) 从头开始覆盖
+                    pre = content[:mid-1]
+                    inserto = self.newtags(question)
+                    post = content[mid:]
+                    # print('mid', mid, content[mid: mid+50])
+                    content = pre + inserto + post # 新内容肯定比之前的长, 所以不用 truncate 了.
                     f.write(content)
                 else:
                     # 在文件末尾写入
@@ -115,7 +120,7 @@ class Spider(object):
             print('failed!!!', file_path)
 
     def newtags(self, question):
-        res = '## Topics\n\n'
+        res = '\n\n## Topics\n\n'
         for tag in question['topicTags']:
             res += '- `{}`\n'.format(tag['name'])
         res += '\n\n'

@@ -37,3 +37,11 @@ Constraints:
 
 1 <= seq.size <= 10000
 
+
+
+## Topics
+
+- `Binary Search`
+- `Greedy`
+
+

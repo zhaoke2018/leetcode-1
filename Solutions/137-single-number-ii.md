@@ -16,3 +16,10 @@ Example 2:
 
 Input: [0,1,0,1,0,1,99]
 Output: 99
+
+
+## Topics
+
+- `Bit Manipulation`
+
+

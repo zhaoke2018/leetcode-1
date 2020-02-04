@@ -23,3 +23,11 @@ Note:
 A will have length between 2 and 2000.
 Each A[i] will be between 1 and 30000.
 K will be between 1 and A.length * (A.length - 1) / 2.
+
+
+## Topics
+
+- `Binary Search`
+- `Heap`
+
+

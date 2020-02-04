@@ -39,3 +39,11 @@ Note:
 board is a length-3 array of strings, where each string board[i] has length 3.
 Each board[i][j] is a character in the set {" ", "X", "O"}.
 
+
+
+## Topics
+
+- `Math`
+- `Recursion`
+
+

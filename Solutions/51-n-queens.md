@@ -34,6 +34,12 @@ Explanation: There exist two distinct solutions to the 4-queens puzzle as shown 
 
 
 
+
+## Topics
+
+- `Backtracking`
+
+
 ## 我自己写的答案
 
 - 是否通过?

@@ -20,6 +20,13 @@ Output: "bb"
 
 
 
+
+## Topics
+
+- `String`
+- `Dynamic Programming`
+
+
 ## Interval DP
 
 - [区间DP思路] 这是一道典型的区间 DP 的题. 用二维数组的两个坐标来表示区间而已, 没什么奇特的. 本题的状态转移关系也很明显.

@@ -62,3 +62,10 @@ Constraints:
 0 <= index <= 100000
 At most 200000 calls will be made to push, pop, and popAtStack.
 
+
+
+## Topics
+
+- `Design`
+
+

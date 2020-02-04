@@ -48,3 +48,10 @@ Constraints:
 
 1 <= d, f <= 30
 1 <= target <= 1000
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

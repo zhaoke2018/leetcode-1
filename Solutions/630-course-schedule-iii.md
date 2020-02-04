@@ -24,3 +24,10 @@ The integer 1 <= d, t, n <= 10,000.
 You can't take two courses simultaneously.
 
  
+
+
+## Topics
+
+- `Greedy`
+
+

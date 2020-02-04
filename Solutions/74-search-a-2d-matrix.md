@@ -30,3 +30,11 @@ matrix = [
 ]
 target = 13
 Output: false
+
+
+## Topics
+
+- `Array`
+- `Binary Search`
+
+

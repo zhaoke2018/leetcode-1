@@ -24,3 +24,12 @@ Note:
 
 1 <= A.length <= 12
 0 <= A[i] <= 1e9
+
+
+## Topics
+
+- `Math`
+- `Backtracking`
+- `Graph`
+
+

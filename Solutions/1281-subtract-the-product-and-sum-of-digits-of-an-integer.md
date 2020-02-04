@@ -29,3 +29,10 @@ Constraints:
 
 1 <= n <= 10^5
 
+
+
+## Topics
+
+- `Math`
+
+

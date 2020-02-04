@@ -35,3 +35,11 @@ The given list has length in the range [0, 10000].
 
 
 
+
+
+## Topics
+
+- `Linked List`
+- `Stack`
+
+

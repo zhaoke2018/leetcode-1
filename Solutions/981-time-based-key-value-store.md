@@ -48,3 +48,11 @@ The timestamps for all TimeMap.set operations are strictly increasing.
 1 <= timestamp <= 10^7
 TimeMap.set and TimeMap.get functions will be called a total of 120000 times (combined) per test case.
 
+
+
+## Topics
+
+- `Hash Table`
+- `Binary Search`
+
+

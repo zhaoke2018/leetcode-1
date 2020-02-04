@@ -53,3 +53,9 @@ int findMaxForm(vector<string>& strs, int m, int n) {
 
 
 ```
+
+## Topics
+
+- `Dynamic Programming`
+
+

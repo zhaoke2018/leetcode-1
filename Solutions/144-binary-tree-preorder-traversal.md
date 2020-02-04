@@ -26,6 +26,13 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 
 
+
+## Topics
+
+- `Stack`
+- `Tree`
+
+
 ## Iteration By John
 
 ```py

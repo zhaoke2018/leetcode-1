@@ -21,3 +21,11 @@ Note:
 -10000 <= A[i] <= 10000
 2 <= K <= 10000
 
+
+
+## Topics
+
+- `Array`
+- `Hash Table`
+
+

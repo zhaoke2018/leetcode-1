@@ -26,3 +26,11 @@ Note:
 1 <= A[i] <= 20000
 
 
+
+
+## Topics
+
+- `Array`
+- `Math`
+
+

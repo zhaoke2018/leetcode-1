@@ -25,3 +25,11 @@ Explanation: The longest valid parentheses substring is "()()"
   - [stack] 本题用stack是最简单的，遇到左括号就入栈**下标**，右括号就出栈,并计算下标之差即得长度。
   - https://leetcode.com/problems/longest-valid-parentheses/discuss/122694/dp-and-stack-c++-soluiton dp和stack都有
   - https://leetcode.com/problems/longest-valid-parentheses/discuss/14126/My-O(n)-solution-using-a-stack 栈解法
+
+
+## Topics
+
+- `String`
+- `Dynamic Programming`
+
+

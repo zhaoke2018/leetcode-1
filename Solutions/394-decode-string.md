@@ -17,6 +17,13 @@ s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
  
 
 
+
+## Topics
+
+- `Stack`
+- `Depth-first Search`
+
+
 ## Basic
 
 - https://leetcode.com/problems/decode-string/description/

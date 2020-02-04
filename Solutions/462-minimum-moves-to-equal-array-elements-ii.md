@@ -19,3 +19,10 @@ Only two moves are needed (remember each move increments or decrements one eleme
 
 [1,2,3]  =>  [2,2,3]  =>  [2,2,2]
 
+
+
+## Topics
+
+- `Math`
+
+

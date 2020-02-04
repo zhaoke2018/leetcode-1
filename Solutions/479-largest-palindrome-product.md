@@ -14,3 +14,9 @@ Explanation: 99 x 91 = 9009, 9009 % 1337 = 987
  
 Note:
 The range of n is [1,8].
+
+
+## Topics
+
+
+

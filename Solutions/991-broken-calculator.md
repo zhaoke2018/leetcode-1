@@ -41,3 +41,11 @@ Note:
 
 1 <= X <= 10^9
 1 <= Y <= 10^9
+
+
+## Topics
+
+- `Math`
+- `Greedy`
+
+

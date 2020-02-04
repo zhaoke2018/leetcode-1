@@ -24,6 +24,12 @@ Output: 6
 
 
 
+
+## Topics
+
+- `Binary Search`
+
+
 ## 知识总结
 
 

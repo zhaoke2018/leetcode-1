@@ -31,3 +31,10 @@ Note:
 N will be an integer in the range [1, 30].
 K will be an integer in the range [1, 2^(N-1)].
 
+
+
+## Topics
+
+- `Recursion`
+
+

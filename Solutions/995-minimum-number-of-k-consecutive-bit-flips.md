@@ -37,3 +37,11 @@ Note:
 
 1 <= A.length <= 30000
 1 <= K <= A.length
+
+
+## Topics
+
+- `Greedy`
+- `Sliding Window`
+
+

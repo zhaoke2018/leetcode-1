@@ -30,3 +30,10 @@ Note:
 0 <= B <= 100
 It is guaranteed such an S exists for the given A and B.
 
+
+
+## Topics
+
+- `Greedy`
+
+

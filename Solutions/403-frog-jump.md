@@ -69,6 +69,12 @@ speeds[i+s+1].append(s+1)
 
 Speeds = defaultdict(Set)
 
+
+## Topics
+
+- `Dynamic Programming`
+
+
 ## DP
 
 ```java

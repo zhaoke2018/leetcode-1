@@ -31,3 +31,11 @@ The pairs (i, j) and (j, i) count as the same pair.
 The length of the array won't exceed 10,000.
 All the integers in the given input belong to the range: [-1e7, 1e7].
 
+
+
+## Topics
+
+- `Array`
+- `Two Pointers`
+
+

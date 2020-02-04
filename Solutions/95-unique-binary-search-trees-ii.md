@@ -36,6 +36,13 @@ def numTrees(self, n: int) -> int:
 ```
 
 
+
+## Topics
+
+- `Dynamic Programming`
+- `Tree`
+
+
 ## Recursion
 - https://leetcode.com/problems/unique-binary-search-trees-ii/
 - 

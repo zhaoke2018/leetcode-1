@@ -46,3 +46,10 @@ board[i][j] is between 1 and N*N or is equal to -1.
 The board square with number 1 has no snake or ladder.
 The board square with number N*N has no snake or ladder.
 
+
+
+## Topics
+
+- `Breadth-first Search`
+
+

@@ -15,3 +15,10 @@ Output: [1,3,3,1]
 
 Follow up:
 Could you optimize your algorithm to use only O(k) extra space?
+
+
+## Topics
+
+- `Array`
+
+

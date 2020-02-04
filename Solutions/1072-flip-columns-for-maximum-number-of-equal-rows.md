@@ -41,3 +41,10 @@ matrix[i][j] is 0 or 1
 
 
 
+
+
+## Topics
+
+- `Hash Table`
+
+

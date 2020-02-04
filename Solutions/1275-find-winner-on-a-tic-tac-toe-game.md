@@ -62,3 +62,10 @@ moves[i].length == 2
 0 <= moves[i][j] <= 2
 There are no repeated elements on moves.
 moves follow the rules of tic tac toe.
+
+
+## Topics
+
+- `Array`
+
+

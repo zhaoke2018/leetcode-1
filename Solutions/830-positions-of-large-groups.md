@@ -27,3 +27,10 @@ Input: "abcdddeeeeaabbbcd"
 Output: [[3,5],[6,9],[12,14]]
  
 Note:  1 <= S.length <= 1000
+
+
+## Topics
+
+- `Array`
+
+

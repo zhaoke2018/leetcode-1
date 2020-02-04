@@ -18,3 +18,11 @@ Note:
 1 <= k <= len(nums) <= 16.
 0 < nums[i] < 10000.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Recursion`
+
+

@@ -26,6 +26,12 @@ Follow up:
 Coud you solve it without converting the integer to a string?
 
 
+
+## Topics
+
+- `Math`
+
+
 ## two pointers
 
 - https://leetcode.com/problems/palindrome-number/

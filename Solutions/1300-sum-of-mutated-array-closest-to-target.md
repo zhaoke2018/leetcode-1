@@ -29,3 +29,11 @@ Constraints:
 
 1 <= arr.length <= 10^4
 1 <= arr[i], target <= 10^5
+
+
+## Topics
+
+- `Array`
+- `Binary Search`
+
+

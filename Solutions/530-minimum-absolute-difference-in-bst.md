@@ -23,3 +23,9 @@ The minimum absolute difference is 1, which is the difference between 2 and 1 (o
 
  
 Note: There are at least two nodes in this BST.
+
+## Topics
+
+- `Tree`
+
+

@@ -28,3 +28,10 @@ The value k is positive and will always be smaller than the length of the sorted
 
 UPDATE (2017/9/19):
 The arr parameter had been changed to an array of integers (instead of a list of integers). Please reload the code definition to get the latest changes.
+
+
+## Topics
+
+- `Binary Search`
+
+

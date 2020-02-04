@@ -35,3 +35,10 @@ Note:
 3 <= A.length <= 3000
 0 <= A[i] <= 100
 0 <= target <= 300
+
+
+## Topics
+
+- `Two Pointers`
+
+

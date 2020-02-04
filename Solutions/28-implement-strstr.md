@@ -34,3 +34,10 @@ def strStr(haystack, needle):
             return i
     return -1
 ```
+
+## Topics
+
+- `Two Pointers`
+- `String`
+
+

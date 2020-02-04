@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Recursion](#recursion)
+- [DFS Emitter By John](#dfs-emitter-by-john)
 
 ## Intro
 
@@ -19,6 +22,12 @@ Output:
 ]
 
 
+
+
+
+## Topics
+
+- `Backtracking`
 
 
 ## Recursion

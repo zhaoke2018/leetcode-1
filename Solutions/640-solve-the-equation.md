@@ -41,3 +41,10 @@ Example 5:
 Input: "x=x+2"
 Output: "No solution"
 
+
+
+## Topics
+
+- `Math`
+
+

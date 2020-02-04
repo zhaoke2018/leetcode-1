@@ -36,3 +36,10 @@ It is guaranteed there is at least one way to partition A as described.
 
  
 
+
+
+## Topics
+
+- `Array`
+
+

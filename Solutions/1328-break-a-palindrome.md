@@ -22,3 +22,10 @@ Constraints:
 
 1 <= palindrome.length <= 1000
 palindrome consists of only lowercase English letters.
+
+
+## Topics
+
+- `String`
+
+

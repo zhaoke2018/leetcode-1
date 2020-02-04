@@ -56,6 +56,13 @@ class Solution:
 
 
 
+
+## Topics
+
+- `Linked List`
+- `Depth-first Search`
+
+
 ## Recursion By John
 
 - https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/discuss/35476/Share-my-JAVA-solution-1ms-very-short-and-concise.

@@ -41,3 +41,11 @@ Constraints:
 0 <= pairs[i][0], pairs[i][1] < s.length
 s only contains lower case English letters.
 
+
+
+## Topics
+
+- `Array`
+- `Union Find`
+
+

@@ -29,3 +29,11 @@ Constraints:
 0 <= queries[i][2] <= s.length
 s only contains lowercase English letters.
 
+
+
+## Topics
+
+- `Array`
+- `String`
+
+

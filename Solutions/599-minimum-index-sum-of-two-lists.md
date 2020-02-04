@@ -33,3 +33,10 @@ The length of strings in both lists will be in the range of [1, 30].
 The index is starting from 0 to the list length minus 1.
 No duplicates in both lists.
 
+
+
+## Topics
+
+- `Hash Table`
+
+

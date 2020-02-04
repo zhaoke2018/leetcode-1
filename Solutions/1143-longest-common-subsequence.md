@@ -34,3 +34,10 @@ Constraints:
 1 <= text2.length <= 1000
 The input strings consist of lowercase English characters only.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

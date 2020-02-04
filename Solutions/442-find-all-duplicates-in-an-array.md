@@ -14,3 +14,10 @@ Input:
 
 Output:
 [2,3]
+
+
+## Topics
+
+- `Array`
+
+

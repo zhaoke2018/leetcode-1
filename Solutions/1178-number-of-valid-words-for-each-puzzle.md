@@ -36,3 +36,11 @@ puzzles[i].length == 7
 words[i][j], puzzles[i][j] are English lowercase letters.
 Each puzzles[i] doesn't contain repeated characters.
 
+
+
+## Topics
+
+- `Hash Table`
+- `Bit Manipulation`
+
+

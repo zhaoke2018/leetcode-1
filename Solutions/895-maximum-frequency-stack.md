@@ -48,3 +48,11 @@ The total number of FreqStack.push and FreqStack.pop calls will not exceed 15000
 
  
 
+
+
+## Topics
+
+- `Hash Table`
+- `Stack`
+
+

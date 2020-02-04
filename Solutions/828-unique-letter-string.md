@@ -27,3 +27,10 @@ Explanation: The same as example 1, except uni("ABA") = 1.
 
  
 Note: 0 <= S.length <= 10000.
+
+
+## Topics
+
+- `Two Pointers`
+
+

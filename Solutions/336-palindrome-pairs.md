@@ -21,3 +21,12 @@ Explanation: The palindromes are ["battab","tabbat"]
 
 
 
+
+
+## Topics
+
+- `Hash Table`
+- `String`
+- `Trie`
+
+

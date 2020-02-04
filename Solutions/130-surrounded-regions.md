@@ -22,3 +22,12 @@ X O X X
 
 Explanation:
 Surrounded regions shouldn’t be on the border, which means that any 'O' on the border of the board are not flipped to 'X'. Any 'O' that is not on the border and it is not connected to an 'O' on the border will be flipped to 'X'. Two cells are connected if they are adjacent cells connected horizontally or vertically.
+
+
+## Topics
+
+- `Depth-first Search`
+- `Breadth-first Search`
+- `Union Find`
+
+

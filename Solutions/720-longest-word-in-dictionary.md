@@ -26,3 +26,11 @@ Note:
 All the strings in the input will only contain lowercase letters.
 The length of words will be in the range [1, 1000].
 The length of words[i] will be in the range [1, 30].
+
+
+## Topics
+
+- `Hash Table`
+- `Trie`
+
+

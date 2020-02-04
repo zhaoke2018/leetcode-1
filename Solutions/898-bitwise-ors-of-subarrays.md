@@ -43,3 +43,11 @@ Note:
 1 <= A.length <= 50000
 0 <= A[i] <= 10^9
 
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Bit Manipulation`
+
+

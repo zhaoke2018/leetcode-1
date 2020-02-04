@@ -16,3 +16,11 @@ Output: 28
 Explanation: The maximum result is 5 ^ 25 = 28.
 
  
+
+
+## Topics
+
+- `Bit Manipulation`
+- `Trie`
+
+

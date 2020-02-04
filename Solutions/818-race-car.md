@@ -41,3 +41,11 @@ Note:
 - `HeapQ解析` 
   - https://leetcode.com/problems/race-car/discuss/143993/Python-AC-BFS-and-Heapq-Solutions
 
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Heap`
+
+

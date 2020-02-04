@@ -14,6 +14,13 @@ Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 
 
 
+
+## Topics
+
+- `Hash Table`
+- `Math`
+
+
 ## Math
 - https://leetcode.com/problems/count-primes/ easy/math
   - 试除法: 循环一遍,能够被整除的就排除,可以不断缩小除数/被除数的范围来优化.

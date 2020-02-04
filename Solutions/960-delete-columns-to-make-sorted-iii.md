@@ -42,3 +42,10 @@ Note:
 
 1 <= A.length <= 100
 1 <= A[i].length <= 100
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

@@ -51,6 +51,13 @@ Any room can contain threats or power-ups, even the first room the knight enters
 
 
 
+
+## Topics
+
+- `Binary Search`
+- `Dynamic Programming`
+
+
 ## DP
 
 

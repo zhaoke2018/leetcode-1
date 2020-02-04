@@ -23,3 +23,10 @@ Output: [0,0]
 Constraints:
 
 2 <= board.length == board[i].length <= 100
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

@@ -26,3 +26,8 @@ XXXX
 This is an invalid board that you will not receive - as battleships will always have a cell separating between them.
 
 Follow up:Could you do it in one-pass, using only O(1) extra memory and without modifying the value of the board?
+
+## Topics
+
+
+

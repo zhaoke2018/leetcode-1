@@ -59,3 +59,10 @@ All values in containedBoxes[i] are unique.
 Each box is contained in one box at most.
 0 <= initialBoxes.length <= status.length
 0 <= initialBoxes[i] < status.length
+
+
+## Topics
+
+- `Breadth-first Search`
+
+

@@ -41,3 +41,11 @@ restaurants[i].length == 5
 1 <= maxPrice, maxDistance <= 10^5
 veganFriendlyi and veganFriendly are 0 or 1.
 All idi are distinct.
+
+
+## Topics
+
+- `Array`
+- `Sort`
+
+

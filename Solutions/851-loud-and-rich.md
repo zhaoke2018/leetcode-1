@@ -39,3 +39,10 @@ richer[i][0] != richer[i][1]
 richer[i]'s are all different.
 The observations in richer are all logically consistent.
 
+
+
+## Topics
+
+- `Depth-first Search`
+
+

@@ -22,3 +22,11 @@ nums[i] will be between 1 and 65535.
 k will be between 1 and floor(nums.length / 3).
 
  
+
+
+## Topics
+
+- `Array`
+- `Dynamic Programming`
+
+

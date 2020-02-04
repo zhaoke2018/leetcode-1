@@ -34,6 +34,12 @@ You may assume that row1 ≤ row2 and col1 ≤ col2.
   - 跟一维的做法没有区别,只需要一点,有一个小矩形会被减两次,所以要补回一次.
 
 
+
+## Topics
+
+- `Dynamic Programming`
+
+
 ## xx
 - https://leetcode.com/problems/range-sum-query-2d-immutable/
   - 变种,原来的一维变成二维了.

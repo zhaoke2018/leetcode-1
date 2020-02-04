@@ -21,3 +21,10 @@ Constraints:
 1 <= hours.length <= 10000
 0 <= hours[i] <= 16
 
+
+
+## Topics
+
+- `Stack`
+
+

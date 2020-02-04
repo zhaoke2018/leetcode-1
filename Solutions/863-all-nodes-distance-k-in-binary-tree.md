@@ -35,6 +35,14 @@ The target node is a node in the tree.
 0 <= K <= 1000.
 
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+- `Breadth-first Search`
+
+
 ## xxx
 
 - 找子树中的节点很容易，关键是如何逆向找呢？

@@ -111,3 +111,10 @@ int leastBricks(vector<vector<int>>& wall) {
 - python without hashtable 90ms, faster than 30.96% of Python online submissions for Brick Wall.
 - python with hashtable ?
 - c++ with hashtable 40ms, faster than 91.96% of C++ online submissions for Brick Wall.
+
+
+## Topics
+
+- `Hash Table`
+
+

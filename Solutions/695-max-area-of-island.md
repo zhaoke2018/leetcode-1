@@ -40,6 +40,13 @@ Note: The length of each dimension in the given grid does not exceed 50.
 - [审题误区] 有些题说明了 non-empty, 就不用考虑 None 了.
 
 
+
+## Topics
+
+- `Array`
+- `Depth-first Search`
+
+
 ## DFS by John
 
 

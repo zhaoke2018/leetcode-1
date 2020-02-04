@@ -26,6 +26,13 @@ Explanation: Another possible reconstruction is ["JFK","SFO","ATL","JFK","ATL","
 
 
 
+
+## Topics
+
+- `Depth-first Search`
+- `Graph`
+
+
 ## Basic
 
 - https://leetcode.com/problems/reconstruct-itinerary/

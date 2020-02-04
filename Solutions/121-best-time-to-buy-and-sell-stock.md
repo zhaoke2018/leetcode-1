@@ -39,6 +39,13 @@ def tradeStock(prices):
 ```
 
 
+
+## Topics
+
+- `Array`
+- `Dynamic Programming`
+
+
 ## DP
 - 给定数组 price, 最多交易一次 https://leetcode.com/problems/best-time-to-buy-and-sell-stock
   - `DP` 循环找到最低价, 同时求出最大profit

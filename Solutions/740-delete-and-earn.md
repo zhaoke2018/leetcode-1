@@ -32,3 +32,10 @@ The length of nums is at most 20000.
 Each element nums[i] is an integer in the range [1, 10000].
 
  
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

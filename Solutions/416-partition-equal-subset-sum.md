@@ -29,3 +29,10 @@ Output: false
 Explanation: The array cannot be partitioned into equal sum subsets.
 
  
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

@@ -74,3 +74,11 @@ class Solution:
         return step-1 if step != 1 else -1 # 因为最后一个节点也会执行一次 入队出队, 因此要减去这个.
 ```
 
+
+
+## Topics
+
+- `Breadth-first Search`
+- `Graph`
+
+

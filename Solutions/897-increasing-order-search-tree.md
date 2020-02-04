@@ -51,6 +51,13 @@ Each node will have a unique integer value from 0 to 1000.
 - [Half_Inorder思路] 也可以一边 in-order 遍历, 一边重组, 处理起来稍微麻烦一点点
 - 考点: python-generator, inorder-traversal.
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+
 ## Full Inorder By John
 
 ```py
@@ -69,6 +76,11 @@ def increasingBST(self, root):
         cur = cur.right
 
     return ans.right
+```
+
+
+
+return ans.right
 ```
 
 

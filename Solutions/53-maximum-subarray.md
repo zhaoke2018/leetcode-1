@@ -36,6 +36,14 @@ def maxSubArray(self, nums):
 
 
 
+
+## Topics
+
+- `Array`
+- `Divide and Conquer`
+- `Dynamic Programming`
+
+
 ## DP
 
 - 题意: 从数组nums[n]中,选出一段连续的subarray,使得这个subarray之和最大. https://leetcode.com/problems/maximum-subarray/

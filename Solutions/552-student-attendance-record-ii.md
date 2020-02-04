@@ -26,3 +26,10 @@ Only "AA" won't be regarded as rewardable owing to more than one absent times.
 Note:
 The value of n won't exceed 100,000.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

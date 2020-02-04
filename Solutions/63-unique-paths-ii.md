@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [DP](#dp)
 
 ## Intro
 
@@ -25,6 +27,13 @@ There are two ways to reach the bottom-right corner:
 1. Right -> Right -> Down -> Down
 2. Down -> Down -> Right -> Right
 
+
+
+
+## Topics
+
+- `Array`
+- `Dynamic Programming`
 
 
 ## DP

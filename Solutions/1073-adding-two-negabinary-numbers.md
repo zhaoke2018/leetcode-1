@@ -23,3 +23,10 @@ arr1 and arr2 have no leading zeros
 arr1[i] is 0 or 1
 arr2[i] is 0 or 1
 
+
+
+## Topics
+
+- `Math`
+
+

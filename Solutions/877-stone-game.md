@@ -27,3 +27,12 @@ Note:
 piles.length is even.
 1 <= piles[i] <= 500
 sum(piles) is odd.
+
+
+## Topics
+
+- `Math`
+- `Dynamic Programming`
+- `Minimax`
+
+

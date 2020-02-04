@@ -15,3 +15,10 @@ Note:
 A pig can be allowed to drink simultaneously on as many buckets as one would like, and the feeding takes no time.
 After a pig has instantly finished drinking buckets, there has to be a cool down time of m minutes. During this time, only observation is allowed and no feedings at all.
 Any given bucket can be sampled an infinite number of times (by an unlimited number of pigs).
+
+
+## Topics
+
+- `Math`
+
+

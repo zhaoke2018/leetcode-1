@@ -31,3 +31,11 @@ enention -> exention (replace 'n' with 'x')
 exention -> exection (replace 'n' with 'c')
 exection -> execution (insert 'u')
 
+
+
+## Topics
+
+- `String`
+- `Dynamic Programming`
+
+

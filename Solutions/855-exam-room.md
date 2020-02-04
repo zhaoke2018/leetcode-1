@@ -28,3 +28,10 @@ Note:
 ExamRoom.seat() and ExamRoom.leave() will be called at most 10^4 times across all test cases.
 Calls to ExamRoom.leave(p) are guaranteed to have a student currently sitting in seat number p.
 
+
+
+## Topics
+
+- `Ordered Map`
+
+

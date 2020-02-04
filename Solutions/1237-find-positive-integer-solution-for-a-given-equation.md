@@ -40,3 +40,11 @@ Constraints:
 It's guaranteed that the solutions of f(x, y) == z will be on the range 1 <= x, y <= 1000
 It's also guaranteed that f(x, y) will fit in 32 bit signed integer if 1 <= x, y <= 1000
 
+
+
+## Topics
+
+- `Math`
+- `Binary Search`
+
+

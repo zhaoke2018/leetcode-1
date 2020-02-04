@@ -47,3 +47,11 @@ Note:
 
 1 <= D <= weights.length <= 50000
 1 <= weights[i] <= 500
+
+
+## Topics
+
+- `Array`
+- `Binary Search`
+
+

@@ -21,3 +21,10 @@ return 13.
 
 Note: 
 You may assume k is always valid, 1 ≤ k ≤ n2.
+
+## Topics
+
+- `Binary Search`
+- `Heap`
+
+

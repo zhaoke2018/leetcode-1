@@ -76,3 +76,11 @@ def nSum_brute(sum, arr, n):
 
 
 
+
+
+## Topics
+
+- `Hash Table`
+- `Binary Search`
+
+

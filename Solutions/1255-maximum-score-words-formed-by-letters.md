@@ -41,3 +41,10 @@ score.length == 26
 0 <= score[i] <= 10
 words[i], letters[i] contains only lower case English letters.
 
+
+
+## Topics
+
+- `Bit Manipulation`
+
+

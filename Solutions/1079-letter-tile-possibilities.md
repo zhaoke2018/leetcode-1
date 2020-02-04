@@ -24,3 +24,10 @@ Note:
 
 1 <= tiles.length <= 7
 tiles consists of uppercase English letters.
+
+
+## Topics
+
+- `Backtracking`
+
+

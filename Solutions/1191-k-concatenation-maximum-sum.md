@@ -31,3 +31,10 @@ Constraints:
 1 <= k <= 10^5
 -10^4 <= arr[i] <= 10^4
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

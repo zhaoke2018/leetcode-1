@@ -30,3 +30,10 @@ Input:
 Output:
 "ffffffff"
 
+
+
+## Topics
+
+- `Bit Manipulation`
+
+

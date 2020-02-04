@@ -19,3 +19,11 @@ Input: 14
 Output: false
 
 
+
+
+## Topics
+
+- `Math`
+- `Binary Search`
+
+

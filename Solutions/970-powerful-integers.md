@@ -36,3 +36,11 @@ Note:
 1 <= x <= 100
 1 <= y <= 100
 0 <= bound <= 10^6
+
+
+## Topics
+
+- `Hash Table`
+- `Math`
+
+

@@ -46,3 +46,12 @@ Note:
 1 <= S.length <= 200
 S contains only digits.
 
+
+
+## Topics
+
+- `String`
+- `Backtracking`
+- `Greedy`
+
+

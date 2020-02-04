@@ -31,6 +31,12 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
   - 求一个累加的数字,看上去适合用dp.
 
 
+
+## Topics
+
+- `Dynamic Programming`
+
+
 ## DP By John
 
 ```py

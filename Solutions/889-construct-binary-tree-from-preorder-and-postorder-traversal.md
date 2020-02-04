@@ -47,6 +47,12 @@ It is guaranteed an answer exists. If there exists multiple answers, you can ret
 - left = pre[1, post.indexOf(pre[1])+1]
 
 
+
+## Topics
+
+- `Tree`
+
+
 ## Recursion By Leetcode
 
 - 递归结构巧妙, 值得多品品.

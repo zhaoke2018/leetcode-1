@@ -17,6 +17,13 @@ Output: "acdb"
 
 
 
+
+## Topics
+
+- `Stack`
+- `Greedy`
+
+
 ## xx
 
 - https://leetcode.com/problems/remove-duplicate-letters/

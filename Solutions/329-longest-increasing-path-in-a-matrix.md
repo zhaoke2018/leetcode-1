@@ -32,6 +32,14 @@ Explanation: The longest increasing path is [3, 4, 5, 6]. Moving diagonally is n
 
 
 
+
+## Topics
+
+- `Depth-first Search`
+- `Topological Sort`
+- `Memoization`
+
+
 ## DP by Kitt
 
 

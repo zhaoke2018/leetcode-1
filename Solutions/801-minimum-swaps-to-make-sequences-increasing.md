@@ -22,3 +22,10 @@ Note:
 A, B are arrays with the same length, and that length will be in the range [1, 1000].
 A[i], B[i] are integer values in the range [0, 2000].
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

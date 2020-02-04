@@ -28,6 +28,12 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
   - [思路] 如何让首尾不同时被抢呢? 要么算头[1, n-1], 要么算尾[2, n] 就可以保证了.
 
 
+
+## Topics
+
+- `Dynamic Programming`
+
+
 ## DP Transform
 
 - 思路步骤

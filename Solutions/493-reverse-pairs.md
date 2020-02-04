@@ -21,3 +21,14 @@ Note:
 The length of the given array will not exceed 50,000.
 All the numbers in the input array are in the range of 32-bit integer.
 
+
+
+## Topics
+
+- `Binary Search`
+- `Divide and Conquer`
+- `Sort`
+- `Binary Indexed Tree`
+- `Segment Tree`
+
+

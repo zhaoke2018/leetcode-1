@@ -20,3 +20,11 @@ Example 3:
 Input: numerator = 2, denominator = 3
 Output: "0.(6)"
 
+
+
+## Topics
+
+- `Hash Table`
+- `Math`
+
+

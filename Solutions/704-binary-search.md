@@ -28,6 +28,12 @@ n will be in the range [1, 10000].
 The value of each element in nums will be in the range [-9999, 9999].
 
 
+
+## Topics
+
+- `Binary Search`
+
+
 ## Two Pointers
 
 

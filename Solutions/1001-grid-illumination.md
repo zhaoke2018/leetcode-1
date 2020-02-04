@@ -37,3 +37,10 @@ Note:
 0 <= lamps.length <= 20000
 0 <= queries.length <= 20000
 lamps[i].length == queries[i].length == 2
+
+
+## Topics
+
+- `Hash Table`
+
+

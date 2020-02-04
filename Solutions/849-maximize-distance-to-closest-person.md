@@ -33,3 +33,10 @@ seats contains only 0s or 1s, at least one 0, and at least one 1.
 
 
 
+
+
+## Topics
+
+- `Array`
+
+

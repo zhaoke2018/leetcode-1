@@ -37,3 +37,10 @@ Note:
 1 <= rods[i] <= 1000
 The sum of rods is at most 5000.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

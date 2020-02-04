@@ -16,6 +16,14 @@ Explanation: The answer should be the total numbers in the range of 0 ≤ x < 10
 
 
 
+
+## Topics
+
+- `Math`
+- `Dynamic Programming`
+- `Backtracking`
+
+
 ## Math
 
 

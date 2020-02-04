@@ -46,3 +46,10 @@ def checkInclusion(self, s1: str, s2: str) -> bool:
     for i in range(len(s1), len(s2)):
 
 ```
+
+## Topics
+
+- `Two Pointers`
+- `Sliding Window`
+
+

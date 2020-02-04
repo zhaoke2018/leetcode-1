@@ -35,6 +35,13 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 
 
 
+
+## Topics
+
+- `Binary Search`
+- `Tree`
+
+
 ## Inorder By John
 
 
@@ -69,6 +76,15 @@ class Solution:
             if k == 0:
                 return root.val
             root = root.right
+```
+
+
+
+
+
+
+
+root = root.right
 ```
 
 

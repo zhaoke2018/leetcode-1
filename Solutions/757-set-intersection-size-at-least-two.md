@@ -29,3 +29,10 @@ Note:
 intervals will have length in range [1, 3000].
 intervals[i] will have length 2, representing some integer interval.
 intervals[i][j] will be an integer in [0, 10^8].
+
+
+## Topics
+
+- `Greedy`
+
+

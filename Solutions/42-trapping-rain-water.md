@@ -19,6 +19,14 @@ Output: 6
 
 
 
+
+## Topics
+
+- `Array`
+- `Two Pointers`
+- `Stack`
+
+
 ## DP By John
 
 - 思路重点: 每个坑能够装多少水, 取决于左右两边较矮的那一个.

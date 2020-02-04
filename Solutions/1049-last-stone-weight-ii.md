@@ -27,3 +27,10 @@ Note:
 
 1 <= stones.length <= 30
 1 <= stones[i] <= 100
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

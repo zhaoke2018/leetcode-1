@@ -24,3 +24,12 @@ Note:
 0 <= nums[i] < 1000000.
 1 <= k <= len(nums) * (len(nums) - 1) / 2.
 
+
+
+## Topics
+
+- `Array`
+- `Binary Search`
+- `Heap`
+
+

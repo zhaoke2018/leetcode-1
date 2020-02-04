@@ -22,3 +22,10 @@ Notes:
 Both rectangles rec1 and rec2 are lists of 4 integers.
 All coordinates in rectangles will be between -10^9 and 10^9.
 
+
+
+## Topics
+
+- `Math`
+
+

@@ -17,3 +17,11 @@ Note:
 0 < nums.length <= 50000.
 0 < nums[i] < 1000.
 0 <= k < 10^6.
+
+
+## Topics
+
+- `Array`
+- `Two Pointers`
+
+

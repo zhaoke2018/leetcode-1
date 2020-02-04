@@ -19,6 +19,13 @@ The minute must be consist of two digits and may contain a leading zero, for exa
 
 
 
+
+## Topics
+
+- `Backtracking`
+- `Bit Manipulation`
+
+
 ## Backtracking
 
 - [陷阱] 用 num 构建所有的时间.

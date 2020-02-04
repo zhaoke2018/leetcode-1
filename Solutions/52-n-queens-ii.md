@@ -24,3 +24,10 @@ Explanation: There are two distinct solutions to the 4-queens puzzle as shown be
   ".Q.."]
 ]
 
+
+
+## Topics
+
+- `Backtracking`
+
+

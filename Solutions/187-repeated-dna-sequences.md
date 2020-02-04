@@ -12,3 +12,11 @@ Input: s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
 
 Output: ["AAAAACCCCC", "CCCCCAAAAA"]
 
+
+
+## Topics
+
+- `Hash Table`
+- `Bit Manipulation`
+
+

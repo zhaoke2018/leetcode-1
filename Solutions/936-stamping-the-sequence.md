@@ -32,3 +32,11 @@ Note:
 
 1 <= stamp.length <= target.length <= 1000
 stamp and target only contain lowercase letters.
+
+
+## Topics
+
+- `String`
+- `Greedy`
+
+

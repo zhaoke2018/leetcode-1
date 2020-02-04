@@ -31,3 +31,12 @@ Constraints:
 2 <= arr.length <= 40
 1 <= arr[i] <= 15
 It is guaranteed that the answer fits into a 32-bit signed integer (ie. it is less than 2^31).
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Stack`
+- `Tree`
+
+

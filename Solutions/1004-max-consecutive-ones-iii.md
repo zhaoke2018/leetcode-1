@@ -32,3 +32,11 @@ Note:
 A[i] is 0 or 1 
 
 
+
+
+## Topics
+
+- `Two Pointers`
+- `Sliding Window`
+
+

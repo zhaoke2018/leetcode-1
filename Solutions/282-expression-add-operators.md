@@ -28,3 +28,10 @@ Example 5:
 Input: num = "3456237490", target = 9191
 Output: []
 
+
+
+## Topics
+
+- `Divide and Conquer`
+
+

@@ -19,3 +19,11 @@ Output: "leotcede"
 Note:
 The vowels does not include the letter "y".
  
+
+
+## Topics
+
+- `Two Pointers`
+- `String`
+
+

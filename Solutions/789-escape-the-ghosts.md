@@ -40,3 +40,10 @@ Note:
 All points have coordinates with absolute value <= 10000.
 The number of ghosts will not exceed 100.
 
+
+
+## Topics
+
+- `Math`
+
+

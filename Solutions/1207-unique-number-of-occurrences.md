@@ -27,3 +27,10 @@ Constraints:
 1 <= arr.length <= 1000
 -1000 <= arr[i] <= 1000
 
+
+
+## Topics
+
+- `Hash Table`
+
+

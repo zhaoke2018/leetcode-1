@@ -26,3 +26,11 @@ Note:
 A is sorted in non-decreasing order.
 
 
+
+
+## Topics
+
+- `Array`
+- `Two Pointers`
+
+

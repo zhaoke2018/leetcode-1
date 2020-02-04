@@ -22,6 +22,13 @@ Can you do it like a boss? Do it without using any builtin function like __built
 
 
 
+
+## Topics
+
+- `Dynamic Programming`
+- `Bit Manipulation`
+
+
 ## xx
 
 - 找1大赛。0~n转换成二进制的话,每个数里面有多少个1? https://leetcode.com/problems/counting-bits/

@@ -39,3 +39,12 @@ Note:
 
 1 <= A.length <= 40000
 0 <= A[i] <= 10^9
+
+
+## Topics
+
+- `Array`
+- `Dynamic Programming`
+- `Sliding Window`
+
+

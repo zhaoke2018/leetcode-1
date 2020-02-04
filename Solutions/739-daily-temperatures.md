@@ -18,6 +18,13 @@ Each temperature will be an integer in the range [30, 100].
 - https://leetcode.com/problems/daily-temperatures/
 
 
+
+## Topics
+
+- `Hash Table`
+- `Stack`
+
+
 ## 我写的
 
 - nexti 应该从 i+1 开始, 那么 step 就得从 1 开始, 但是找不到更高温的时候, step=0

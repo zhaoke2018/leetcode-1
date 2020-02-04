@@ -34,3 +34,10 @@ Constraints:
 2 <= k <= 10^4
 s only contains lower case English letters.
 
+
+
+## Topics
+
+- `Stack`
+
+

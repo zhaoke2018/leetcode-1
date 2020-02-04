@@ -17,3 +17,9 @@ Input: 5
 Output: false
 
 Follow up: Could you solve it without loops/recursion?
+
+## Topics
+
+- `Bit Manipulation`
+
+

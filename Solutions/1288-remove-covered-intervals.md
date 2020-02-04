@@ -20,3 +20,10 @@ Constraints:
 0 <= intervals[i][0] < intervals[i][1] <= 10^5
 intervals[i] != intervals[j] for all i != j
 
+
+
+## Topics
+
+- `Line Sweep`
+
+

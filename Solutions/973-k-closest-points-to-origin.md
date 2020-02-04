@@ -34,3 +34,12 @@ Note:
 -10000 < points[i][1] < 10000
 
 
+
+
+## Topics
+
+- `Divide and Conquer`
+- `Heap`
+- `Sort`
+
+

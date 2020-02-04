@@ -37,6 +37,12 @@ N is a positive integer and will not exceed 15.
  
 
 
+
+## Topics
+
+- `Backtracking`
+
+
 ## 基本信息
 
 - https://leetcode.com/problems/beautiful-arrangement/

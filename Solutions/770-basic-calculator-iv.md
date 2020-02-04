@@ -46,3 +46,12 @@ Note:
 expression will have length in range [1, 250].
 evalvars, evalints will have equal lengths in range [0, 100].
 
+
+
+## Topics
+
+- `Hash Table`
+- `String`
+- `Stack`
+
+

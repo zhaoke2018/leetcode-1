@@ -125,3 +125,10 @@ class Solution(object):
 
 
 
+
+
+## Topics
+
+- `Greedy`
+
+

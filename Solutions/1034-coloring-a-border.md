@@ -36,3 +36,10 @@ Note:
 0 <= r0 < grid.length
 0 <= c0 < grid[0].length
 1 <= color <= 1000
+
+
+## Topics
+
+- `Depth-first Search`
+
+

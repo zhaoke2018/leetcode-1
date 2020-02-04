@@ -35,3 +35,10 @@ Each address will have either 1 or 2 "." characters.
 The input count in any count-paired domain will not exceed 10000.
 The answer output can be returned in any order.
 
+
+
+## Topics
+
+- `Hash Table`
+
+

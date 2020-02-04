@@ -30,6 +30,13 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 
 
+
+## Topics
+
+- `Array`
+- `Greedy`
+
+
 ## DP
 - 可多次交易同一支股票,但是必须卖完之后再买 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/ greedy/easy
   - `Greedy` 只要第二天价格比第一天高,就进行买卖

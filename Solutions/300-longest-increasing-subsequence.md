@@ -34,3 +34,10 @@ def LCS(s1, s2):
                 arr[i][j] = max(arr[i - 1][j], arr[i][j - 1])
     return arr[m][n]
 ```
+
+## Topics
+
+- `Binary Search`
+- `Dynamic Programming`
+
+

@@ -30,3 +30,11 @@ Decimal point - "."
 Of course, the context of these characters also matters in the input.
 Update (2015-02-10):
 The signature of the C++ function had been updated. If you still see your function signature accepts a const char * argument, please click the reload button to reset your code definition.
+
+
+## Topics
+
+- `Math`
+- `String`
+
+

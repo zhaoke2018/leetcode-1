@@ -34,3 +34,10 @@ Note:
 
 1 <= S.length <= 10000
 S only contains characters "I" or "D".
+
+
+## Topics
+
+- `Math`
+
+

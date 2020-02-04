@@ -47,6 +47,13 @@ Output:
 
 
 
+
+## Topics
+
+- `Dynamic Programming`
+- `Backtracking`
+
+
 ## 基本信息
 
 - https://leetcode.com/problems/word-break-ii/

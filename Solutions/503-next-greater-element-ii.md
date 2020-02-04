@@ -15,3 +15,10 @@ Explanation: The first 1's next greater number is 2; The number 2 can't find nex
 
 Note:
 The length of given array won't exceed 10000.
+
+
+## Topics
+
+- `Stack`
+
+

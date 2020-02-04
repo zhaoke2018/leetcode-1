@@ -55,3 +55,10 @@ trust[i] are all different
 trust[i][0] != trust[i][1]
 1 <= trust[i][0], trust[i][1] <= N
 
+
+
+## Topics
+
+- `Graph`
+
+

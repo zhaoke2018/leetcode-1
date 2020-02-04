@@ -14,3 +14,9 @@ Example 2:
 
 Input: [0,1]
 Output: 0
+
+## Topics
+
+- `Bit Manipulation`
+
+

@@ -36,3 +36,11 @@ Each {name} and {city} consist of lowercase English letters, and have lengths 
 Each {time} consist of digits, and represent an integer between 0 and 1000.
 Each {amount} consist of digits, and represent an integer between 0 and 2000.
 
+
+
+## Topics
+
+- `Array`
+- `String`
+
+

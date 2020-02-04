@@ -25,3 +25,10 @@ If instead we turned both strings into "lee" or "eet", we would get answers of 4
 Note:
 0 < s1.length, s2.length <= 1000.
 All elements of each string will have an ASCII value in [97, 122].
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

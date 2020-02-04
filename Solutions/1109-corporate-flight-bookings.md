@@ -19,3 +19,11 @@ Constraints:
 1 <= bookings.length <= 20000
 1 <= bookings[i][0] <= bookings[i][1] <= n <= 20000
 1 <= bookings[i][2] <= 10000
+
+
+## Topics
+
+- `Array`
+- `Math`
+
+

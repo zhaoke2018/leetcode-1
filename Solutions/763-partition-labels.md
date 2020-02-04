@@ -19,3 +19,11 @@ A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits 
 Note:
 S will have length in range [1, 500].
 S will consist of lowercase letters ('a' to 'z') only.
+
+
+## Topics
+
+- `Two Pointers`
+- `Greedy`
+
+

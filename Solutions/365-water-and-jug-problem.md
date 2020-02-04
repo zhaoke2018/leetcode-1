@@ -21,3 +21,10 @@ Example 2:
 
 Input: x = 2, y = 6, z = 5
 Output: False
+
+
+## Topics
+
+- `Math`
+
+

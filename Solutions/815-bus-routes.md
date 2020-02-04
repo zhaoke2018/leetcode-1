@@ -22,3 +22,10 @@ Note:
 1 <= routes[i].length <= 500.
 0 <= routes[i][j] < 10 ^ 6.
 
+
+
+## Topics
+
+- `Breadth-first Search`
+
+

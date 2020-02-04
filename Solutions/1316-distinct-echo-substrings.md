@@ -24,3 +24,11 @@ Constraints:
 1 <= text.length <= 2000
 text has only lowercase English letters.
 
+
+
+## Topics
+
+- `String`
+- `Rolling Hash`
+
+

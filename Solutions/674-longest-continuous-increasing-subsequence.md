@@ -22,3 +22,10 @@ Explanation: The longest continuous increasing subsequence is [2], its length is
 
 Note:
 Length of the array will not exceed 10,000.
+
+
+## Topics
+
+- `Array`
+
+

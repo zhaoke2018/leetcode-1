@@ -50,3 +50,11 @@ Note:
 All points are distinct.
 Answers within 10^-5 of the actual value will be accepted as correct.
 
+
+
+## Topics
+
+- `Math`
+- `Geometry`
+
+

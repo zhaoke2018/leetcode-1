@@ -28,3 +28,11 @@ Note:
 1 <= words.length <= 1000
 1 <= words[i].length, chars.length <= 100
 All strings contain lowercase English letters only.
+
+
+## Topics
+
+- `Array`
+- `Hash Table`
+
+

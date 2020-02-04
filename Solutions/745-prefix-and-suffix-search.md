@@ -23,3 +23,10 @@ prefix, suffix have lengths in range [0, 10].
 words[i] and prefix, suffix queries consist of lowercase letters only.
 
  
+
+
+## Topics
+
+- `Trie`
+
+

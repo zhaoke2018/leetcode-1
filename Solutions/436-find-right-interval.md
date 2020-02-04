@@ -42,3 +42,10 @@ Explanation: There is no satisfied "right" interval for [1,4] and [3,4].
 For [2,3], the interval [3,4] has minimum-"right" start point.
 
 NOTE: input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
+
+
+## Topics
+
+- `Binary Search`
+
+

@@ -15,6 +15,13 @@ return [0, 1].
 
 
 
+
+## Topics
+
+- `Array`
+- `Hash Table`
+
+
 ## basic
 
 - 从数组中找到两个数ab,使得a+b==target,返回ab的下标. https://leetcode.com/problems/two-sum/

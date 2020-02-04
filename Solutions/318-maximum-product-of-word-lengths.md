@@ -21,3 +21,10 @@ Input: ["a","aa","aaa","aaaa"]
 Output: 0 
 Explanation: No such pair of words.
 
+
+
+## Topics
+
+- `Bit Manipulation`
+
+

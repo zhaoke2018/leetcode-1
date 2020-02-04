@@ -30,3 +30,11 @@ Input:
 Output: 2
  
 Note: The given binary tree has not more than 10000 nodes. The height of the tree is not more than 1000.
+
+
+## Topics
+
+- `Tree`
+- `Recursion`
+
+

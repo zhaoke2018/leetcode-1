@@ -26,6 +26,12 @@ Explanation: The palindrome partitioning ["aa","b"] could be produced using 1 cu
 
 
 
+
+## Topics
+
+- `Dynamic Programming`
+
+
 ## DP
 
 - dp[i] 表示到 i 需要的最小cut, 且两边都是回文.

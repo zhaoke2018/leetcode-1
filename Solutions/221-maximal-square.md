@@ -15,3 +15,10 @@ Input:
 1 0 0 1 0
 
 Output: 4
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

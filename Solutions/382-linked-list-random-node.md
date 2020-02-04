@@ -19,3 +19,10 @@ Solution solution = new Solution(head);
 // getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
 solution.getRandom();
 
+
+
+## Topics
+
+- `Reservoir Sampling`
+
+

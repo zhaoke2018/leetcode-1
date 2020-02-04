@@ -38,3 +38,11 @@ Constraints:
 1 <= s.length <= 1000
 s[i] = 'L' or 'R'
 
+
+
+## Topics
+
+- `String`
+- `Greedy`
+
+

@@ -21,6 +21,13 @@ Explanation: If there are 4 stones in the heap, then you will never win the game
 
 
 
+
+## Topics
+
+- `Brainteaser`
+- `Minimax`
+
+
 ## Game
 
 - https://leetcode.com/problems/nim-game/ brainteaser/easy

@@ -46,3 +46,10 @@ Constraints:
 1 <= jobDifficulty.length <= 300
 0 <= jobDifficulty[i] <= 1000
 1 <= d <= 10
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

@@ -21,6 +21,12 @@ There are many calls to sumRange function.
 
 
 
+
+## Topics
+
+- `Dynamic Programming`
+
+
 ## DP
 
 - https://leetcode.com/problems/range-sum-query-immutable/ easy

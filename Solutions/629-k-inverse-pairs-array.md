@@ -28,3 +28,10 @@ Note:
 The integer n is in the range [1, 1000] and k is in the range [0, 1000].
 
  
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

@@ -43,3 +43,11 @@ Note:
 The range of n is [1, 10000].
 The range of dresses number in a super washing machine is [0, 1e5].
 
+
+
+## Topics
+
+- `Math`
+- `Dynamic Programming`
+
+

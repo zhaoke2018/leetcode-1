@@ -22,3 +22,10 @@ Note:
 1 <= len(start) = len(end) <= 10000.
 Both start and end will only consist of characters in {'L', 'R', 'X'}.
 
+
+
+## Topics
+
+- `Brainteaser`
+
+

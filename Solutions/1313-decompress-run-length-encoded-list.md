@@ -23,3 +23,10 @@ Constraints:
 nums.length % 2 == 0
 1 <= nums[i] <= 100
 
+
+
+## Topics
+
+- `Array`
+
+

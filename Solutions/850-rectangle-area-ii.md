@@ -25,3 +25,11 @@ Note:
 rectanges[i].length = 4
 0 <= rectangles[i][j] <= 10^9
 The total area covered by all rectangles will never exceed 2^63 - 1 and thus will fit in a 64-bit signed integer.
+
+
+## Topics
+
+- `Segment Tree`
+- `Line Sweep`
+
+

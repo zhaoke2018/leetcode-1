@@ -21,3 +21,10 @@ Constraints:
 
 1 <= piles.length <= 100
 1 <= piles[i] <= 10 ^ 4
+
+
+## Topics
+
+- `Dynamic Programming`
+
+

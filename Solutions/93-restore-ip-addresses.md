@@ -35,6 +35,13 @@ def restoreIpAddresses(self, s: str) -> List[str]:
 
 
 
+
+## Topics
+
+- `String`
+- `Backtracking`
+
+
 ## Backtracking
 
 - 给定一串字符串, 返回所有可能的IP地址. https://leetcode.com/problems/restore-ip-addresses/

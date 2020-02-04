@@ -22,6 +22,13 @@ Explanation: All root-to-leaf paths are: 1->2->5, 1->3
 
 
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+
 ## 基本情况
 
 - 返回所有从 root 出发, 到 leaf 的路径 https://leetcode.com/problems/binary-tree-paths/

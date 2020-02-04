@@ -35,3 +35,10 @@ Constraints:
 1 <= queries.length <= 3 * 10^4
 queries[i].length == 2
 0 <= queries[i][0] <= queries[i][1] < arr.length
+
+
+## Topics
+
+- `Bit Manipulation`
+
+

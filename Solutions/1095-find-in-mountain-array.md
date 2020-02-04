@@ -43,3 +43,10 @@ Constraints:
 0 <= target <= 10^9
 0 <= mountain_arr.get(index) <= 10^9
 
+
+
+## Topics
+
+- `Binary Search`
+
+

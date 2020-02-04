@@ -16,3 +16,10 @@ Constraints:
 
 1 <= dominoes.length <= 40000
 1 <= dominoes[i][j] <= 9
+
+
+## Topics
+
+- `Array`
+
+

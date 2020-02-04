@@ -30,3 +30,10 @@ Constraints:
 1 <= n <= 16
 0 <= start < 2 ^ n
 
+
+
+## Topics
+
+- `Math`
+
+

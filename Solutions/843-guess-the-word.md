@@ -25,3 +25,10 @@ master.guess("abcczz") returns 4, because "abcczz" has 4 matches.
 We made 5 calls to master.guess and one of them was the secret, so we pass the test case.
 
 Note:  Any solutions that attempt to circumvent the judge will result in disqualification.
+
+
+## Topics
+
+- `Minimax`
+
+

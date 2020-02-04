@@ -37,3 +37,13 @@ Note:
 2 <= N <= 50.
 grid[i][j] is a permutation of [0, ..., N*N - 1].
 
+
+
+## Topics
+
+- `Binary Search`
+- `Heap`
+- `Depth-first Search`
+- `Union Find`
+
+

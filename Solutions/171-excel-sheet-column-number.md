@@ -30,3 +30,10 @@ Example 3:
 
 Input: "ZY"
 Output: 701
+
+
+## Topics
+
+- `Math`
+
+

@@ -26,3 +26,12 @@ Note:
 1 <= A.length <= 20000
 1 <= A[i] <= A.length
 1 <= K <= A.length
+
+
+## Topics
+
+- `Hash Table`
+- `Two Pointers`
+- `Sliding Window`
+
+

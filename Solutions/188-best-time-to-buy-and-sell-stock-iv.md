@@ -24,6 +24,12 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 
 
+
+## Topics
+
+- `Dynamic Programming`
+
+
 ## DP
 
 - 给定一个数组, 用来表示一天内价格变化. 最多交易k次, 求最大收益 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/ dp/hard

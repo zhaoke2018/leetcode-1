@@ -84,6 +84,13 @@ class Solution:
         return res
 ```
 
+
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+
+
 ## DFS Bottom-up by Ke
 ```Java
 class Solution {

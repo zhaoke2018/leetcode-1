@@ -27,6 +27,13 @@ Output: 28
 
 
 
+
+## Topics
+
+- `Array`
+- `Dynamic Programming`
+
+
 ## DP
 - 在一个mxn的矩阵中,要从左上角走到右下角,只能往下或者往右移动,一共有多少个unique path. 
   - https://leetcode.com/problems/unique-paths/

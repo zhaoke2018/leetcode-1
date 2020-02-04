@@ -98,3 +98,10 @@ The answer is guaranteed to exist and be less than 2 * 10^8.
 1162.
 1306.
 1315.
+
+
+## Topics
+
+- `Math`
+
+

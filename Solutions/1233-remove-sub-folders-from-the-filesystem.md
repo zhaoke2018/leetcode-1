@@ -34,3 +34,11 @@ folder[i] contains only lowercase letters and '/'
 folder[i] always starts with character '/'
 Each folder name is unique.
 
+
+
+## Topics
+
+- `Array`
+- `String`
+
+

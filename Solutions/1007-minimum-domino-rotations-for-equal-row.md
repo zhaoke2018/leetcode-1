@@ -31,3 +31,11 @@ Note:
 1 <= A[i], B[i] <= 6
 2 <= A.length == B.length <= 20000
 
+
+
+## Topics
+
+- `Array`
+- `Greedy`
+
+

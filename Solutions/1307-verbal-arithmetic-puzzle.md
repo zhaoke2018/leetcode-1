@@ -44,3 +44,11 @@ Constraints:
 words[i], result contains only upper case English letters.
 Number of different characters used on the expression is at most 10.
 
+
+
+## Topics
+
+- `Math`
+- `Backtracking`
+
+

@@ -13,3 +13,14 @@ Example:
 Input: nums = [-2,5,-1], lower = -2, upper = 2,
 Output: 3 
 Explanation: The three ranges are : [0,0], [2,2], [0,2] and their respective sums are: -2, -1, 2.
+
+
+## Topics
+
+- `Binary Search`
+- `Divide and Conquer`
+- `Sort`
+- `Binary Indexed Tree`
+- `Segment Tree`
+
+

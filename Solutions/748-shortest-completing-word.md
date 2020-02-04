@@ -35,3 +35,10 @@ licensePlate will contain digits, spaces, or letters (uppercase or lowercase).
 words will have a length in the range [10, 1000].
 Every words[i] will consist of lowercase letters, and have length in range [1, 15].
 
+
+
+## Topics
+
+- `Hash Table`
+
+

@@ -18,3 +18,10 @@ Input: a = 2, b = [1,0]
 Output: 1024
 
 
+
+
+## Topics
+
+- `Math`
+
+

@@ -27,3 +27,11 @@ req_skills[i][j], people[i][j][k] are lowercase English letters.
 Every skill in people[i] is a skill in req_skills.
 It is guaranteed a sufficient team exists.
 
+
+
+## Topics
+
+- `Dynamic Programming`
+- `Bit Manipulation`
+
+

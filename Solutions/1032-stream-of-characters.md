@@ -35,3 +35,10 @@ Words will only consist of lowercase English letters.
 Queries will only consist of lowercase English letters.
 The number of queries is at most 40000.
 
+
+
+## Topics
+
+- `Trie`
+
+
