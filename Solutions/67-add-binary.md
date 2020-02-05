@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Bit](#bit)
 
 ## Intro
 
@@ -20,5 +22,29 @@ Output: "10101"
 
 - `Math`
 - `String`
+
+
+## Bit
+
+
+```py
+def addBinary(a: str, b: str) -> str:
+    sum = []
+    carry = 0
+    length = max(len(a), len(b))
+    reverse_a = reversed(a)
+    reverse_b = reversed(b)
+
+    for i in range(length):
+        sum[i] = reverse_a[i] ^ reverse_b[i]
+        if carry:
+            # TODO 这里需要两个 carry 才行啊, 一个用来代表之前产生的进位, 一个用来代表当前两位产生的进位
+            carry = reverse_a[i] & reverse_b[i]
+
+    # TODO reverse sum and join.('')
+    return reversed(sum.join(''))
+```
+
+
 
 

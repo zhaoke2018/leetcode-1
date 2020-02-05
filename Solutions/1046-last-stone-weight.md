@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Heap](#heap)
 
 ## Intro
 
@@ -32,5 +34,42 @@ Note:
 
 - `Heap`
 - `Greedy`
+
+
+## Heap
+
+- [Heap] 建立 heap, 每次 pop 最大的两个元素相减, 并且将结果存回 heap, 循环 n-1 次, heap[-1] 就是留下的石头了.
+
+
+```py
+def lastStoneWeight(self, stones: List[int]) -> int:
+    A = [-i for i in stones]
+    heapq.heapify(A) # 对 list 自身变形?
+    for i in range(len(A) - 1):
+        x, y = heapq.heappop(A), heapq.heappop(A)
+        heapq.heappush(A, -abs(x-y))
+    return -A[0]
+```
+
+
+
+
+- 为什么注释的解法中, pop 出来的数据不是最大的两个呢? 为什么变为负数之后就正确了呢?
+  - 应该是因为 heapq 默认的是最大堆.
+  - heapq.heappop() 默认返回的是 `最小值`.
+
+- 为什么是 range(len(pq)-1) 次, 而不是 while(len(pq))
+
+```py
+def lastStoneWeight(self, A: List[int]) -> int:
+    pq = [-x for x in A]
+    heapq.heapify(pq)
+    for i in range(len(A) - 1):
+        x, y = -heapq.heappop(pq), -heapq.heappop(pq)
+        heapq.heappush(pq, -abs(x - y))
+        print(x,y,'\n', pq)
+    return -pq[0]   
+```
+
 
 

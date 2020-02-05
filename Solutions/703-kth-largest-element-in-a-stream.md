@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Heap](#heap)
 
 ## Intro
 
@@ -24,5 +26,24 @@ You may assume that nums' length ≥ k-1 and k ≥ 1.
 ## Topics
 
 - `Heap`
+
+## Heap
+
+```py
+class KthLargest:
+    def __init__(self, k: int, nums: List[int]):
+        self.hp = nums
+        self.k = k
+        heapq.heapify(self.hp)
+        while len(self.hp) > self.k:
+            heapq.heappop(self.hp)
+
+    def add(self, val: int) -> int:
+        if len(self.hp) < self.k:
+            heapq.heappush(self.hp, val) # 初始化可能为空
+        elif val > self.hp[0]:
+            heapq.heapreplace(self.hp, val)
+        return self.hp[0]
+```
 
 

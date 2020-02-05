@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Two Pointers](#two-pointers)
 
 ## Intro
 
@@ -21,5 +23,24 @@ Could you do this in one pass?
 
 - `Linked List`
 - `Two Pointers`
+- `Two Pointers - Fast Slow Pointers`
 
 
+## Two Pointers
+
+```py
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        statichead = fast = slow = ListNode(0)
+        statichead.next = head # 建立 dummy node,初始化
+        
+        for i in range(n):
+            fast = fast.next
+
+        while fast.next:
+            fast = fast.next
+            slow = slow.next
+
+        slow.next = slow.next.next # 这不是删除!
+        return statichead.next
+```

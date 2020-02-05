@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [xxx](#xxx)
+- [two pointers](#two-pointers)
 
 ## Intro
 
@@ -83,6 +86,9 @@ class Solution:
 ## two pointers
 
 - 这道题虽然有个 two pointers 的标签, 但是一个 pointer 就可以完成, 而且效率应该不比 two pointers 低.
+- [Single_pointer] 直接通过一个指针 i 确定最终结果的范围, 如果 nums[i] == nums[i+1], 就删掉后者, 否则 i++.
+- [Two_pointers] 很容易超时
+  - 双指针例子 https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/354819/Python3-2-pointer
 
 TODO
 - Two Pointers 的解法好在哪里?

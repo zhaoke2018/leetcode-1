@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [xxx](#xxx)
 
 ## Intro
 
@@ -35,3 +37,13 @@ Do not return anything from your function.
 - `Linked List`
 
 
+## xxx
+
+- 节点都指定好了, 那就直接一个替换操作即可.
+
+```py
+class Solution:
+    def deleteNodeByValue(self, node):
+      node.val = node.next.val
+      node.next = node.next.next
+```

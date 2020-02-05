@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Hash](#hash)
+- [Two Pointers](#two-pointers)
 
 ## Intro
 
@@ -47,3 +50,49 @@ Your code should preferably run in O(n) time and use only O(1) memory.
 - `Linked List`
 
 
+## Hash
+
+```py
+def getIntersectionNode(self, headA, headB):
+    inter = set()
+    while headA:
+        inter.add(headA)
+        headA = headA.next
+        
+    while headB:
+        if headB in inter:
+            return headB
+        else:
+            headB = headB.next
+    return None
+```
+
+## Two Pointers
+
+- `Two Pointers` 遍历两个链表, 找到长度差; 然后从头开始, 让长的先走一段, 然后两者同时走, 就可以走到一起了.
+- `Hash` 先遍历一个, 然后再看另一个就行了
+
+```py
+def getIntersectionNode(self, headA, headB):
+    curA, curB = headA, headB
+    lenA, lenB = 0, 0
+    # Get len diff
+    while curA:
+        curA = curA.next
+        lenA += 1
+    while curB:
+        curB = curB.next
+        lenB += 1
+    
+    lenDiff = abs(lenA-lenB)
+    
+    # let fast go!
+    curA, curB = headA, headB
+    if lenA > lenB: curA = curA.next
+    if lenA < lenB: curB = curB.next
+
+    while curA != curB:
+        curA = curA.next
+        curB = curB.next
+    return curA
+```

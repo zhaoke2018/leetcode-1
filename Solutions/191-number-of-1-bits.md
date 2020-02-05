@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Bit](#bit)
 
 ## Intro
 
@@ -37,5 +39,35 @@ If this function is called many times, how would you optimize it?
 ## Topics
 
 - `Bit Manipulation`
+
+
+## Bit
+
+
+
+```py
+# 循环法 逐步与1做and操作
+# 大致思想就是这样了,但是目前还有bug,应该是python不熟的原因
+def hammingWeight(n):
+    mask = 1
+    count = 0
+    for i in xrange(32):
+        if n & mask != 0:
+            count += 1
+        mask <<= 1 # 左移并不只是<<噢!
+    return count
+
+# 位运算法 10000 & 10000-1 = 0,这样就清除了后5位,依次清除就可以得到所有1了.
+# accepted 但是 faster than 8%
+def hammingWeight_bitwise(n):
+    count = 0
+    while n:
+        n &= n-1
+        count += 1
+    return count
+```
+
+
+
 
 

@@ -55,6 +55,10 @@ for (int i = 0; i < len; i++) {
 - `Two Pointers` 指针i用来记录新数组下标, 指针j用来遍历找到符合条件的元素.
   - i <= j, 所以不用担心错误覆盖.
 
+
+- faster than 10%, 更快的解法是什么呢?
+
+
 ```py
 def removeElement(self, nums: List[int], val: int) -> int:
     i = 0

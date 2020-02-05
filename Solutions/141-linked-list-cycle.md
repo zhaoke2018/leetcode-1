@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Hash](#hash)
+- [Two Pointers](#two-pointers)
 
 ## Intro
 
@@ -41,7 +44,47 @@ Can you solve it using O(1) (i.e. constant) memory?
 
 ## Topics
 
+- `Hash`
 - `Linked List`
 - `Two Pointers`
 
+
+
+
+- 判断是否有环(判断形状) https://leetcode.com/problems/linked-list-cycle/
+  
+  - `HashSet` 有环就肯定会走到原地, 那么遍历一圈就知道了. 
+
+
+## Hash
+
+```py
+def hasCycle(self, head: ListNode) -> bool:
+    cache = set()
+    while head:
+        if head in cache:
+            return True
+        else:
+            cache.add(head)
+        head = head.next
+    return False
+```
+
+
+
+## Two Pointers
+
+- a每次走一步,b每次走两步.如果链表是个环的话,他们会相遇的.
+
+```py
+def hasCycle(self, head: ListNode) -> bool:
+    try:
+        slow, fast = head, head.next
+        while slow != fast:
+            slow = slow.next
+            fast = fast.next.next
+        return True
+    except:
+        return False
+```
 

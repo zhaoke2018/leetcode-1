@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Sort](#sort)
+- [Heap](#heap)
 
 ## Intro
 
@@ -22,5 +25,32 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 - `Divide and Conquer`
 - `Heap`
+
+
+
+## Sort
+
+- 最佳解法
+- 最佳时间复杂度为 nlog(n)
+
+
+
+```py
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        nums.sort()
+        return nums[-k]
+```
+
+## Heap
+```py
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        heapq.heapify(nums)
+        for i in range(k-1):
+            heapq.heappop(nums)
+        return heapq.heappop()
+```
+
 
 

@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Hash](#hash)
 
 ## Intro
 
@@ -49,3 +51,16 @@ Note that 'A' and 'a' are treated as two different characters.
 - `Heap`
 
 
+## Hash
+
+- [Hash] 直接一把统计
+
+```py
+class Solution:
+    def frequencySort(self, s: str) -> str:
+        ct = collections.Counter(s)
+        res = ''
+        for (cht, times) in ct.most_common():
+            res += cht * times
+        return res
+```

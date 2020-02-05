@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Bit](#bit)
 
 ## Intro
 
@@ -29,3 +31,19 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 - `Bit Manipulation`
 
 
+## Bit
+
+- 取反很简单,与 1111 异或就可以了.
+- `经验` 本题的关键是, 如何获取到跟 num 长度一样的 1.
+
+```py
+def findComplement(self, num):
+    # 得到与num同长度的1111...
+    counter = 1
+    while counter <= num:
+        counter = counter << 1
+
+    # 减一之后正好变成全一,然后异或就 flip 了
+    flipy =  counter - 1 ^ num
+    return flipy
+``` 

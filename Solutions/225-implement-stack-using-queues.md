@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Two Queue](#two-queue)
 
 ## Intro
 
@@ -34,3 +36,7 @@ You may assume that all operations are valid (for example, no pop or top operati
 - `Design`
 
 
+
+## Two Queue
+
+- 两个Queue,相互中转就行了

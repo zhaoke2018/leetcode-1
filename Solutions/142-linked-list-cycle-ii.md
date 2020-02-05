@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Two Pointers](#two-pointers)
+- [Hash](#hash)
 
 ## Intro
 
@@ -39,4 +42,25 @@ Can you solve it without using extra space?
 - `Linked List`
 - `Two Pointers`
 
+
+## Two Pointers
+
+
+
+## Hash
+
+
+```py
+class Solution:
+    def detectCycle(self, head: ListNode) -> ListNode:
+        conflix = set()
+
+        while head:
+            if head in conflix:
+                return head
+            else:
+                conflix.add(head)
+            head = head.next
+        return None
+```
 

@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Two Stack](#two-stack)
 
 ## Intro
 
@@ -34,3 +36,6 @@ You may assume that all operations are valid (for example, no pop or peek operat
 - `Design`
 
 
+## Two Stack
+
+- 两个栈,相互中转就行了

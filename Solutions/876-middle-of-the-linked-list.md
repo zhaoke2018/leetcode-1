@@ -56,6 +56,8 @@ The number of nodes in the given list will be between 1 and 100.
 
 - [分析] 拿到题就要分奇偶两种情况. 通过双指针很容易解决奇数的情况.
 - [Trap] 最后为什么返回的是一串链表? 因为数组里面存的就是链表元素
+  
+- Time=O(N), Space=O(N)
 
 
 ```py
@@ -69,6 +71,9 @@ def middleNode(self, head):
 
 
 ## Two Pointers
+
+- Time=O(N), Space=O(1)
+
 
 ```py
 def middleNode(self, head):

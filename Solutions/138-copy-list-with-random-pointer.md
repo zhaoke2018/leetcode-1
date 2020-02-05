@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [xxx](#xxx)
 
 ## Intro
 
@@ -51,3 +53,10 @@ Number of Nodes will not exceed 1000.
 - `Linked List`
 
 
+
+
+## xxx
+
+
+
+- 还有一种巧妙的方法. http://www.cnblogs.com/grandyang/p/4261431.html

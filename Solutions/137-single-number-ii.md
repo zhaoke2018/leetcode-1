@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Bit](#bit)
 
 ## Intro
 
@@ -22,4 +24,28 @@ Output: 99
 
 - `Bit Manipulation`
 
+
+## Bit
+
+
+
+```py
+def singleNumberII_bitwise(self, nums: List[int]) -> int:
+    res = 0
+    for i in nums:
+        res = res & nums ^ nums
+    return res
+```
+
+
+
+
+```py
+# Math version
+def singleNumberII_math(self, nums):
+    res = set(nums)
+    res = sum(res)*3 - sum(nums) # 这样一来,就把所有出现3次的数字都减掉了
+    res = res/2 # python3中的除法是精确除, 返回的是浮点数!!!
+    return res
+```
 
