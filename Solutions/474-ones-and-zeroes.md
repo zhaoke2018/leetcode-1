@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Dynamic Programming - Knapsack - 二维费用问题](#dynamic-programming---knapsack---%e4%ba%8c%e7%bb%b4%e8%b4%b9%e7%94%a8%e9%97%ae%e9%a2%98)
 
 ## Intro
 
@@ -33,29 +35,24 @@ Explanation: You could form "10", but then you'd have nothing left. Better form 
 
 
 
-- https://leetcode.com/problems/ones-and-zeroes/
-  - 给m个0和n个1,以及一些字符串,求最多可以用这些01组成多少个字符串.
 
-
-- 给你m个0,n个1,还有一个字符串数组.看你能拼出多少个array里面的字符串,返回总数.(这些0和1都只能用一次) https://leetcode.com/problems/ones-and-zeroes/
-- 本题分析和解法见背包问题
-
-```csharp
-// 传参是不是都用指针比较好?
-int findMaxForm(vector<string>& strs, int m, int n) {
-    int sum = 0;
-    return sum;
-}
-```
-
-
-```py
-
-
-```
 
 ## Topics
 
-- `Dynamic Programming`
+- `Dynamic Programming - Knapsack - 二维费用问题`
+
+
+## Dynamic Programming - Knapsack - 二维费用问题
+
+- 给你m个0,n个1,还有一个字符串数组.看你能拼出多少个array里面的字符串,返回总数.(这些0和1都只能用一次) 
+
+- 转化:物品ith的二维费用问题 (并不是限定使用次数的多重背包问题)
+
+
+
+
+
+
+
 
 

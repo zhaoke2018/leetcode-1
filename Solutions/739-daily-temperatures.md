@@ -22,10 +22,29 @@ Each temperature will be an integer in the range [30, 100].
 ## Topics
 
 - `Hash Table`
-- `Stack`
+- `Stack - Monotonous`
 
 
-## 我写的
+
+## Stack Monotonous
+
+- 不知道是怎么想出来的.
+
+```py
+class Solution(object):
+    def dailyTemperatures(self, T):
+        ans = [0] * len(T)
+        stack = [] # [hot, cold] indexes from hottest to coldest
+        for i in xrange(len(T) - 1, -1, -1):
+            while stack and T[i] >= T[stack[-1]]: # 把 T[i] 
+                stack.pop()
+            if stack:
+                ans[i] = stack[-1] - i
+            stack.append(i)
+        return ans
+```
+
+## Wrong Answer by John
 
 - nexti 应该从 i+1 开始, 那么 step 就得从 1 开始, 但是找不到更高温的时候, step=0
 - 始终各种矛盾
@@ -61,21 +80,3 @@ sol = Solution().dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73])
 print(sol)
 ```
 
-
-## 标准答案
-
-- 不知道是怎么想出来的.
-
-```py
-class Solution(object):
-    def dailyTemperatures(self, T):
-        ans = [0] * len(T)
-        stack = [] # [hot, cold] indexes from hottest to coldest
-        for i in xrange(len(T) - 1, -1, -1):
-            while stack and T[i] >= T[stack[-1]]: # 把 T[i] 
-                stack.pop()
-            if stack:
-                ans[i] = stack[-1] - i
-            stack.append(i)
-        return ans
-```

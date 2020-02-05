@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Monotonous](#monotonous)
 
 ## Intro
 
@@ -19,6 +21,12 @@ The length of given array won't exceed 10000.
 
 ## Topics
 
-- `Stack`
+- `Stack - Monotonous`
+
+
+
+## Monotonous
+
+- Labuladong https://leetcode-cn.com/problems/next-greater-element-ii/solution/dan-diao-zhan-jie-jue-next-greater-number-yi-lei-2/
 
 

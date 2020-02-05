@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 
 ## Intro
 
@@ -33,7 +34,7 @@ Your output answer is guaranteed to be fitted in a 32-bit integer.
 
 ## Topics
 
-- `Dynamic Programming`
+- `Dynamic Programming - Knapsack`
 - `Depth-first Search`
 
 
