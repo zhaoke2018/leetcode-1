@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 - [Interval DP](#interval-dp)
 - [Expand String](#expand-string)
 
@@ -25,6 +26,7 @@ Output: "bb"
 
 - `String`
 - `Dynamic Programming`
+- `Dynamic Programming - Interval`
 
 
 ## Interval DP
