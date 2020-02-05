@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 - [思路对比](#%e6%80%9d%e8%b7%af%e5%af%b9%e6%af%94)
 - [Compare_While_Traversal By Leetcode](#comparewhiletraversal-by-leetcode)
   - [Compare_While_Traversal By John](#comparewhiletraversal-by-john)
@@ -54,7 +55,7 @@ Return false.
 ## Topics
 
 - `Tree`
-
+- `Hard - John`
 
 ## 思路对比
 

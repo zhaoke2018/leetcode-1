@@ -20,7 +20,7 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 ## Topics
 
 - `Linked List`
-
+- `Hard - John`
 
 
 
@@ -31,6 +31,22 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 - 递归需要系统堆栈，所以空间消耗要比非递归代码要大很多.
 - 递归的特点是一直往栈里压，然后才从尾到头一步步执行函数体，非常直观。
 
+
+```csharp
+ListNode* reverseList(ListNode* head) {
+    if (!head || !head->next) return head; // 先写结束条件,当前节点不存在(?)了,就算转置完了.
+    ListNode *p = head;
+    head = reverseList(p->next); // 所有递归的关键思路: 这里直接到链表底部!!
+    p->next->next = p; // 关键: 下家的next指针指回自己.
+    p->next = NULL;
+    return head;
+}
+```
+
+
+
+
+## Iteration
 
 
 
@@ -47,19 +63,5 @@ ListNode* reverseList(ListNode* head) {
     }
     return pre;
     // 从本题可以总结出一种写程序的方式,先写关键的一个操作,然后根据操作补足条件!
-}
-```
-
-
-## Iteration
-
-```csharp
-ListNode* reverseList(ListNode* head) {
-    if (!head || !head->next) return head; // 先写结束条件,当前节点不存在(?)了,就算转置完了.
-    ListNode *p = head;
-    head = reverseList_recursive(p->next); // 所有递归的关键思路: 这里直接到链表底部!!
-    p->next->next = p; // 关键: 下家的next指针指回自己.
-    p->next = NULL;
-    return head;
 }
 ```
