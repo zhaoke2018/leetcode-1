@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 
 ## Intro
 
@@ -23,6 +24,6 @@ Output: [1, 3, 9]
 
 - `Tree`
 - `Depth-first Search`
-- `Breadth-first Search`
+- `Breadth-first Search - Level Order Traversal`
 
 

@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 - [Iteration By John](#iteration-by-john)
 
 ## Intro
@@ -32,7 +33,7 @@ return its zigzag level order traversal as:
 
 - `Stack`
 - `Tree`
-- `Breadth-first Search`
+- `Breadth-first Search - Level Order Traversal`
 
 
 ## Iteration By John

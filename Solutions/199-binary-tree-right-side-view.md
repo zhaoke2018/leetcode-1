@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 
 ## Intro
 
@@ -22,6 +23,6 @@ Explanation:
 
 - `Tree`
 - `Depth-first Search`
-- `Breadth-first Search`
+- `Breadth-first Search - Level Order Traversal`
 
 

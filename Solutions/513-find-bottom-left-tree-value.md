@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Level Order Traversal](#level-order-traversal)
+- [Niche](#niche)
 
 ## Intro
 
@@ -38,16 +41,21 @@ You may assume the tree (i.e., the given root node) is not NULL.
 
 
 
-- https://leetcode.com/problems/find-bottom-left-tree-value/
+## Topics
+
+- `Tree`
+- `Depth-first Search`
+- `Breadth-first Search - Level Order Traversal`
 
 
-- [基础思路] 层次遍历，返回最后一层的第一个元素即可
+## Level Order Traversal
+
+- [Level_Order_Traversal] 层次遍历，返回最后一层的第一个元素即可
+
+
+## Niche
+
 - [简易思路] 直接把所有的节点依次 **从右向左** 加入队列, 并过滤所有空节点, 这样最后一个节点就是题目要找的节点了.
-
-
-
-
-
 
 ```py
 class Solution:
@@ -58,18 +66,4 @@ class Solution:
 
         return node.val # 最后一个处理的节点肯定就是最左边的嘛
 ```
-
-
-
-
-
-
-
-
-## Topics
-
-- `Tree`
-- `Depth-first Search`
-- `Breadth-first Search`
-
 

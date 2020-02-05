@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 - [Iteration By John](#iteration-by-john)
 
 ## Intro
@@ -31,7 +32,7 @@ return its bottom-up level order traversal as:
 ## Topics
 
 - `Tree`
-- `Breadth-first Search`
+- `Breadth-first Search - Level Order Traversal`
 
 
 ## Iteration By John

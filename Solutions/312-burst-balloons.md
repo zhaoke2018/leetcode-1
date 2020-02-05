@@ -23,7 +23,6 @@ Explanation: nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
 ## Topics
 
 - `Divide and Conquer`
-- `Dynamic Programming`
 - `Dynamic Programming - Interval`
 
 

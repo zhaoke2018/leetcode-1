@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 
 ## Intro
 
@@ -30,6 +31,6 @@ The total number of nodes is between [0, 10^4]
 ## Topics
 
 - `Tree`
-- `Breadth-first Search`
+- `Breadth-first Search - Level Order Traversal`
 
 

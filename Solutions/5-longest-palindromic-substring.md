@@ -25,7 +25,6 @@ Output: "bb"
 ## Topics
 
 - `String`
-- `Dynamic Programming`
 - `Dynamic Programming - Interval`
 
 

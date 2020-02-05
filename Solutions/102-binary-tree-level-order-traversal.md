@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 
 ## Intro
 
@@ -29,6 +30,6 @@ return its level order traversal as:
 ## Topics
 
 - `Tree`
-- `Breadth-first Search`
+- `Breadth-first Search - Level Order Traversal`
 
 
