@@ -1,6 +1,7 @@
 - [Intro](#intro)
-- [Inorder By John](#inorder-by-john)
-- [Iteration By John](#iteration-by-john)
+- [Topics](#topics)
+- [Inorder - Recursion](#inorder---recursion)
+- [Iteration - Hard](#iteration---hard)
 
 ## Intro
 
@@ -40,9 +41,11 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 
 - `Binary Search`
 - `Tree`
+- `Iteration - Hard`
+- `Inorder - Recursion`
 
 
-## Inorder By John
+## Inorder - Recursion
 
 
 - BST 的 inorder traversal 就是一个 sorted array, 所以本题考的就是 inorder traversal!
@@ -55,7 +58,7 @@ def kthSmallest(self, root: TreeNode, k: int) -> int:
 ```
 
 
-## Iteration By John
+## Iteration - Hard
 
 - 本题也可以一边遍历一边找元素
 - Faster than 99%

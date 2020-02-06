@@ -87,7 +87,7 @@ class Spider(object):
         question = content['data']['question']
 
         # self.generate_problem_markdown(question, paid_only)
-        # self.generate_readme_form(question)
+        self.generate_readme_form(question)
         # self.insert_tags_in_markdown(question, paid_only)
 
 
@@ -146,7 +146,7 @@ class Spider(object):
         readme_path = os.path.join(self.path, "readme.md")
         local_file = "./Solutions/{}-{}".format(int(question['questionFrontendId']), question['questionTitleSlug'])
         with open(readme_path, 'a+') as f:
-            f.write('[{}]({})\n'.format(question['questionTitle'], local_file)) # 添加表格内容
+            f.write('[{}. {}]({})\n'.format(question['questionFrontendId'], question['questionTitle'], local_file)) # 添加表格内容
 
     def run(self):
         self.get_problems()

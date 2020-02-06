@@ -20,7 +20,8 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 ## Topics
 
 - `Linked List`
-- `Hard - John`
+- `Recursion - Hard`
+- `Iteration - Hard`
 
 
 

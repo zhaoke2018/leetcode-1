@@ -50,7 +50,22 @@ Explanation: You could form "10", but then you'd have nothing left. Better form 
 
 
 
+```py
+class Solution:
+    def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
+        dp = [[0] * (m+1)] * (n+1) # m:0
 
+        for ss in strs:
+            # 统计 zero one 出现的次数
+            counter = collections.Counter(ss)
+            count_zero = counter['0']
+            count_one = counter['1']
+            
+            for ii in range(m, count_zero, -1):
+                for jj in range(n, count_one, -1):.
+                    dp[ii][jj] = max(dp[ii][jj], dp[ii - count_zero][jj - count_one] + 1)
+        return dp[m][n]
+```
 
 
 
