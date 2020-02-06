@@ -1,5 +1,6 @@
 - [Intro](#intro)
-- [Iteration By John](#iteration-by-john)
+- [Topics](#topics)
+- [BFS - Iteration](#bfs---iteration)
 
 ## Intro
 
@@ -54,15 +55,14 @@ Every string in deadends and the string target will be a string of 4 digits from
 
 ## Topics
 
-- `Breadth-first Search`
+- `Breadth-first Search - Iteration`
 
 
-## Iteration By John
+## BFS - Iteration
 
 - Open the Lock 初始组合为0000, 避免一些死锁组合, 最少几步正确开锁?
 - [思路] 遍历所有的可能性, 直到找到为止
 - [关键点] 有一些死锁组合会挡住遍历, 如何解决这个问题?
-- 
 - [Python] 不能直接操作 string, 要转换成 list 来更新.
 - [Python] deque 可以直接判断 in.
 - [python] 新建文件的时候, 根目录 == 运行位置的目录.
@@ -76,7 +76,6 @@ Every string in deadends and the string target will be a string of 4 digits from
 
 
 ```py
-
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
         Q = collections.deque(["0000"])
@@ -105,11 +104,6 @@ class Solution:
     def reRotate(self, cur, i):
         curli = list(cur)
         curli[i] = str((int(curli[i]) - 1) % 9) # 将表盘拨动一格
-        return ''.join(curli)
-```
-
-
- # 将表盘拨动一格
         return ''.join(curli)
 ```
 

@@ -7,9 +7,9 @@ import re
 USER_AGENT = r'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
 
 class Spider(object):
-    def __init__(self, path):
+    def __init__(self):
         self.base_url = 'https://leetcode.com/'
-        self.path = path
+        self.path = os.path.join(os.getcwd(), '') # getcwd() 是运行目录
         self.session = requests.Session()
     
     def login(self, username, password):
@@ -153,7 +153,7 @@ class Spider(object):
 
 
 if __name__ == '__main__':
-    S = Spider('/Users/yjatt/Projects/leetcode/')
+    S = Spider()
     S.run()
 
 

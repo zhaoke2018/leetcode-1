@@ -1,3 +1,9 @@
+'''
+- 本文件用来合并同名 markdown 文件, 一次性使用.
+- 之后可以用来学习或者代码参考
+- 这里用到的 fuzzyfinder 值得学习一下
+'''
+
 import os
 import re
 import logging
@@ -6,18 +12,20 @@ import logging
 class TransferCode():
     def __init__(self):
         self.sols = []
-        self.path_solution = os.path.join(os.getcwd(), 'Solutions') # getcwd() 是项目地址
+        self.path_solution = os.path.join(os.getcwd(), 'Solutions') # getcwd() 是运行目录
         self.path_old_code = os.path.join(os.getcwd(), 'old_code')
 
         for sol in os.listdir(self.path_solution): # 缓存 /Solutions 的所有文件名, 方便之后查找
             self.sols.append(sol)
 
+        # logger 相关配置
         self.logger = logging.getLogger('myapp')
         logger_handler = logging.FileHandler(os.path.join(os.getcwd(), "tranfer.log"))
         formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
         logger_handler.setFormatter(formatter)
         self.logger.addHandler(logger_handler)
-        self.logger.setLevel(logging.INFO) # 表示只有比 warning 更严重的才记录
+        self.logger.setLevel(logging.INFO) # 表示只有比 Info 更严重的才记录. 如果不设置的话, 默认是只有比 warning 更严重才记录
+
 
     def move_same_name_file(self):
 

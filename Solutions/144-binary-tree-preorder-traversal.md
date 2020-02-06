@@ -1,8 +1,9 @@
 - [Intro](#intro)
-- [Iteration By John](#iteration-by-john)
-- [Recursion By John - Pythonic](#recursion-by-john---pythonic)
-- [Recursion By John - Regular](#recursion-by-john---regular)
-- [Morris By](#morris-by)
+- [Topics](#topics)
+- [Iteration](#iteration)
+- [Recursion - Pythonic](#recursion---pythonic)
+- [Recursion - Regular](#recursion---regular)
+- [Morris Traversal](#morris-traversal)
 
 ## Intro
 
@@ -31,9 +32,13 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 - `Stack`
 - `Tree`
+- `Iteration`
+- `Recursion - Pythonic`
+- `Recursion - Regular`
+- `Morris Traversal`
 
 
-## Iteration By John
+## Iteration
 
 ```py
 class Solution:
@@ -55,7 +60,7 @@ class Solution:
 ```
 
 
-## Recursion By John - Pythonic
+## Recursion - Pythonic
 
 - faster than 66.87% 
 - Pythonic 写法, 虽然很简单, 但是对于其他语言不具备普适性
@@ -70,7 +75,7 @@ class Solution:
 ```
 
 
-## Recursion By John - Regular
+## Recursion - Regular
 
 - faster than 66.87% 
 - 普通写法需要有一个辅助函数.
@@ -91,4 +96,4 @@ class Solution:
 ```
 
 
-## Morris By 
+## Morris Traversal

@@ -1,5 +1,6 @@
 - [Intro](#intro)
-- [朴素遍历](#%e6%9c%b4%e7%b4%a0%e9%81%8d%e5%8e%86)
+- [Topics](#topics)
+- [BFS](#bfs)
 
 ## Intro
 
@@ -57,14 +58,14 @@ Hint: size of the given matrix will not exceed 50x50.
 ## Topics
 
 - `Breadth-first Search`
+- `A*`
+- `Hadlock`
 
 
-## 朴素遍历
+## BFS
 
 
 - 在一片 2d 森林中从矮到高砍树. 如果能一直砍完所有的树, 则返回一共要走多少步; 如果不能, 就返回-1. 砍完数, 原数字变为1, 0是不可以走的地方.
-  - hard / Amazon
-  - bfs / A* / Hadlock's
   - 解法 https://leetcode.com/articles/cutoff-trees-for-golf-event/
 
 

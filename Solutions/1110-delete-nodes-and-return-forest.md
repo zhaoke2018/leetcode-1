@@ -1,6 +1,7 @@
 - [Intro](#intro)
 - [Top-Down](#top-down)
-- [DFS Bottom-up by Ke](#dfs-bottom-up-by-ke)
+- [Topics](#topics)
+- [DFS Bottom-up](#dfs-bottom-up)
 
 ## Intro
 
@@ -88,10 +89,11 @@ class Solution:
 ## Topics
 
 - `Tree`
-- `Depth-first Search`
+- `Depth-first Search - Bottom-up`
 
 
-## DFS Bottom-up by Ke
+## DFS Bottom-up
+
 ```Java
 class Solution {
     List<TreeNode> res = new ArrayList();

@@ -1,5 +1,6 @@
 - [Intro](#intro)
-- [xxx](#xxx)
+- [Topics](#topics)
+- [BFS](#bfs)
 
 ## Intro
 
@@ -50,7 +51,7 @@ grid[i][j] is only 0, 1, or 2.
 - `Breadth-first Search`
 
 
-## xxx
+## BFS
 
 - 模板不熟悉就比较头大，不过跟之前那个01 matrix差不多。
 - 将所有2元素的坐标入队，然后出队的时候将周围的坐标都变成2，直到下标out bound，最后问一下整个2d数组，还有1吗？

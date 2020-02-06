@@ -1,7 +1,7 @@
 - [Intro](#intro)
-- [思路对比](#%e6%80%9d%e8%b7%af%e5%af%b9%e6%af%94)
-- [DP By John](#dp-by-john)
-- [BFS By John](#bfs-by-john)
+- [Topics](#topics)
+- [DP](#dp)
+- [BFS](#bfs)
 
 ## Intro
 
@@ -27,27 +27,12 @@ Explanation: 13 = 4 + 9.
 - `Dynamic Programming`
 - `Breadth-first Search`
 
-
-## 思路对比
-
-
-- Perfect Square 最少需要几个平方数,使得和为n? 
-  - 不能使用最大的平方数辗转相减, 比如12=4+4+4, 而不是12=9+1+1+1, 而是要把所有的可能的平方数都检查一遍.
-  - BFS 可以使用 recursion 或者 队列.
-
-
-- Python 知识点
-1.  如何实现 `j=0; j*j<i; j++`
-
-
-- [] DP 与 DFS 哪个解法更好?
-- 对比一下复杂度就可以了.
+- 不能使用最大的平方数辗转相减, 比如12=4+4+4, 而不是12=9+1+1+1, 而是要把所有的可能的平方数都检查一遍.
+- 哪个是最优解?
 
 
 
-
-
-## DP By John
+## DP
 
 ```py
 # Time Complexity: O(n*n^1/2)
@@ -61,14 +46,13 @@ class Solution:
         
         for i in range(1, n+1): # 计算每一个数需要多少步
             for j in sq_num: # 所有可能的平方数都检查一下, 以防止 12 = 4+4+4 的情况被 9 覆盖
-
                 if i >= j:
                     dp[i] = min(dp[i], dp[i-j]+1)
         return dp[-1]
 ```
 
 
-## BFS By John
+## BFS
 
 
 
@@ -79,14 +63,10 @@ class Solution:
         def bfs(n, step):
             if n == 0:
                 return step
-            print('step', step)
             for sqn in sqns:
                 if n >= sqn:
                     bfs(n-sqn, step+1)
 
-
         sqns = [i*i for i in range(1, n//2+1)]
-        # print(sqns)
         return bfs(n, 0)
-
 ```

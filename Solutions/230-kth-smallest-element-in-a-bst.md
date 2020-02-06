@@ -62,7 +62,7 @@ def kthSmallest(self, root: TreeNode, k: int) -> int:
 
 - 本题也可以一边遍历一边找元素
 - Faster than 99%
-
+- 这里解法很多, 也可以看一下 https://leetcode.com/problems/kth-smallest-element-in-a-bst/discuss/63660/3-ways-implemented-in-JAVA-(Python)%3A-Binary-Search-in-order-iterative-and-recursive
 
 ```py
 class Solution:
@@ -84,11 +84,6 @@ class Solution:
 
 
 
-
-
-
-root = root.right
-```
 
 
 

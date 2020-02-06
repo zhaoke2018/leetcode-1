@@ -18,7 +18,7 @@ class Spider(object):
         self.session = requests.Session()
         
         self.sols = []
-        self.path_solution = os.path.join(os.getcwd(), 'Solutions') # getcwd() 是项目地址
+        self.path_solution = os.path.join(os.getcwd(), 'Solutions') # getcwd() 是运行目录
         for sol in os.listdir(self.path_solution): # 缓存 /Solutions 的所有文件名, 方便之后查找
             self.sols.append(sol)
     

@@ -1,5 +1,6 @@
 - [Intro](#intro)
-- [Full Inorder By John](#full-inorder-by-john)
+- [Topics](#topics)
+- [Depth-first Search - InOrder - Iteration](#depth-first-search---inorder---iteration)
 
 ## Intro
 
@@ -46,19 +47,21 @@ Each node will have a unique integer value from 0 to 1000.
 
 
 
-- [分析] 将一个 二叉树 转换成只有 右节点 的树. 结构重组. 眼尖的朋友一眼就能看出, 转换后的结果 == inorder 遍历结果.
-- [Full_Inorder思路] 使用 in-order 遍历出一个数组, 然后将 遍历结果 连接成树即可.
-- [Half_Inorder思路] 也可以一边 in-order 遍历, 一边重组, 处理起来稍微麻烦一点点
-- 考点: python-generator, inorder-traversal.
-
 
 ## Topics
 
 - `Tree`
-- `Depth-first Search`
+- `Depth-first Search - InOrder - Iteration` 最优解! 一边 in-order 遍历, 一边重组, 处理起来稍微麻烦一点点
+- `Depth-first Search - InOrder - Recursion` 使用 in-order 遍历出一个数组, 然后将 遍历结果 连接成树即可.
+
+- [分析] 将一个 二叉树 转换成只有 右节点 的树. 结构重组. 眼尖的朋友一眼就能看出, 转换后的结果 == inorder 遍历结果.
+- [考点] python-generator, inorder-traversal.
 
 
-## Full Inorder By John
+## Depth-first Search - InOrder - Iteration
+
+- Python Generator!
+
 
 ```py
 # Python的yield 可以让这一切更优雅
@@ -77,11 +80,5 @@ def increasingBST(self, root):
 
     return ans.right
 ```
-
-
-
-return ans.right
-```
-
 
 

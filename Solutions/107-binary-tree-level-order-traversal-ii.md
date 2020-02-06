@@ -1,6 +1,6 @@
 - [Intro](#intro)
 - [Topics](#topics)
-- [Iteration By John](#iteration-by-john)
+- [Iteration](#iteration)
 
 ## Intro
 
@@ -33,8 +33,9 @@ return its bottom-up level order traversal as:
 
 - `Tree`
 - `Breadth-first Search - Level Order Traversal`
+- `Iteration`
 
 
-## Iteration By John
+## Iteration
 
 - 这太简单了！直接层次遍历就行了，最后reversed一下即可。

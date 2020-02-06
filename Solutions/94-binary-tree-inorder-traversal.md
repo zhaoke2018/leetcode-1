@@ -1,5 +1,6 @@
 - [Intro](#intro)
-- [Iteration By John](#iteration-by-john)
+- [Topics](#topics)
+- [Depth-First Search - Inorder - Iteration](#depth-first-search---inorder---iteration)
 
 ## Intro
 
@@ -25,9 +26,10 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 - `Hash Table`
 - `Stack`
 - `Tree`
+- `Depth-First Search - Inorder - Iteration`
 
 
-## Iteration By John
+## Depth-First Search - Inorder - Iteration 
 
 ```py
 def inorderTraversal(self, root: TreeNode) -> List[int]:

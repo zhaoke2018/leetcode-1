@@ -1,8 +1,8 @@
 - [Intro](#intro)
-- [DP By John](#dp-by-john)
+- [Topics](#topics)
+- [DP](#dp)
 - [Stack](#stack)
 - [Two Pointers](#two-pointers)
-- [Other](#other)
 
 ## Intro
 
@@ -25,16 +25,14 @@ Output: 6
 - `Array`
 - `Two Pointers`
 - `Stack`
+- `Dynamic Programming`
 
+- 哪个是最优解?
 
-## DP By John
+## DP
 
 - 思路重点: 每个坑能够装多少水, 取决于左右两边较矮的那一个.
-
-
-- TODO
-- 这也算 DP 吗? Leetcode 是这么算的.
-- 
+- [WHY] 这也算 DP 吗? Leetcode 是这么算的.
 
 ```py
 class Solution:
@@ -59,39 +57,6 @@ class Solution:
 
         return sum(traping)
 ```
-
-## Stack
-
-
-## Two Pointers
-
-- 两边轮流移动, 始终保持两边差不多高.
-  - 比如 left=2 的时候, 那么 right=2 以内的坑都可以装水的.
-  - Two pointers 时间复杂度跟其他方法一样, 但是空间复杂度最佳.
-
-
-
-
-
-
-
-
-## Other
-
-
-- https://leetcode.com/problems/trapping-rain-water/
-  - `Two pointers` 对于i, 只要直到 left_maxHeight 和 right_maxHeight, 就能算出能收集多少雨水了.
-
-
-```py
-def trap(self, height: List[int]) -> int:
-    # two height pointers
-    left, right = 0, len(height)
-    while left != right:
-        leftMax
-    leftMax = max(leftMax, i)
-```
-
 
 
 
@@ -119,6 +84,13 @@ int trap(vector<int>& height)
 }
 ```
 
+
+## Stack
+
+
+
+
+
 ```cpp
 // stack
 int trap(vector<int>& height)
@@ -140,6 +112,18 @@ int trap(vector<int>& height)
     return ans;
 }
 ```
+
+
+
+## Two Pointers
+
+- `Two pointers` 对于i, 只要直到 left_maxHeight 和 right_maxHeight, 就能算出能收集多少雨水了.
+- 两边轮流移动, 始终保持两边差不多高.
+  - 比如 left=2 的时候, 那么 right=2 以内的坑都可以装水的.
+  - Two pointers 时间复杂度跟其他方法一样, 但是空间复杂度最佳.
+
+
+
 
 
 

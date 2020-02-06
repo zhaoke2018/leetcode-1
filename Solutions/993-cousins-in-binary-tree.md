@@ -1,7 +1,7 @@
 - [Intro](#intro)
-- [基本情况介绍](#%e5%9f%ba%e6%9c%ac%e6%83%85%e5%86%b5%e4%bb%8b%e7%bb%8d)
-- [Iteration By John](#iteration-by-john)
-- [Iteration By John](#iteration-by-john-1)
+- [Topics](#topics)
+- [BFS - Iteration](#bfs---iteration)
+  - [一段错误的代码](#%e4%b8%80%e6%ae%b5%e9%94%99%e8%af%af%e7%9a%84%e4%bb%a3%e7%a0%81)
 
 ## Intro
 
@@ -46,18 +46,12 @@ Each node has a unique integer value from 1 to 100.
 ## Topics
 
 - `Tree`
-- `Breadth-first Search`
-
-
-## 基本情况介绍
-
-- 给定一个二叉树, 判断其中的两个节点是否为 cousin 节点(父亲节点不一样, 但是深度一样) https://leetcode.com/problems/cousins-in-binary-tree/
-- [BFS] 直接遍历整个树, 对于每个节点, 将其 父亲节点 和 深度信息 保存起来. 
-- [优化] 找到两个节点就可以结束了, 没必要遍历整棵树.
+- `Breadth-first Search` 直接遍历整个树, 对于每个节点, 将其 父亲节点 和 深度信息 保存起来. 
+  - [优化] 找到两个节点就可以结束了, 没必要遍历整棵树.
 
 
 
-## Iteration By John
+## BFS - Iteration
 
 
 
@@ -87,7 +81,7 @@ class Solution:
 
 
 
-## Iteration By John
+### 一段错误的代码
 
 
 

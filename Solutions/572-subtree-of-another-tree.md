@@ -1,8 +1,7 @@
 - [Intro](#intro)
 - [Topics](#topics)
-- [思路对比](#%e6%80%9d%e8%b7%af%e5%af%b9%e6%af%94)
-- [Compare_While_Traversal By Leetcode](#comparewhiletraversal-by-leetcode)
-  - [Compare_While_Traversal By John](#comparewhiletraversal-by-john)
+- [Recursion - Hard](#recursion---hard)
+  - [一段纪念代码](#%e4%b8%80%e6%ae%b5%e7%ba%aa%e5%bf%b5%e4%bb%a3%e7%a0%81)
 
 ## Intro
 
@@ -55,12 +54,8 @@ Return false.
 ## Topics
 
 - `Tree`
-- `Hard - John`
-
-## 思路对比
-
-- [Compare_While_Traversal] 一边遍历一边对比. 如果大树很大, 小树很小, 那这种方法就会比较高效.
-- [Compare_After_Traversal] 两棵树遍历完之后, 直接对比遍历结果即可.
+- `Recursion - Hard` 最优解! 一边遍历一边对比. 如果大树很大, 小树很小, 那这种方法就会比较高效.
+- `Depth-First Search - PreOrder`
   - [WHY] 单独的一个 preorder 并不能确定一棵树!!!为什么不会报错???
 
 ```
@@ -80,8 +75,9 @@ preorder: [1,2,3]
 
 
 
-## Compare_While_Traversal By Leetcode
+## Recursion - Hard
 
+- Compare while Traverse
 
 ```py
 class Solution:
@@ -101,7 +97,7 @@ class Solution:
 
 
 
-### Compare_While_Traversal By John
+### 一段纪念代码
 
 - 本解法仅留作纪念, 跟上面的思路一样, 但是写得很繁琐.
 
