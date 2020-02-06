@@ -38,3 +38,30 @@ Explanation:
 ```
           []         
 ```
+
+## DFS
+```Java
+class Solution {
+    public List<List<Integer>> findLeaves(TreeNode root) {
+        List<List<Integer>> ans = new ArrayList();
+        if (root == null) return ans;
+        List<Integer> cur;
+        while (root != null) {
+            cur = new ArrayList();
+            root = dfs(root, cur);
+            ans.add(cur);
+        }
+        return ans;
+    }
+    
+    private TreeNode dfs(TreeNode root, List<Integer> cur) {
+        if (root.left == null && root.right == null) {
+            cur.add(root.val);
+            return null;
+        }
+        if (root.left != null) root.left = dfs(root.left, cur);
+        if (root.right != null) root.right = dfs(root.right, cur);
+        return root;
+    }
+}
+```
