@@ -24,7 +24,7 @@ Explanation: 13 = 4 + 9.
 ## Topics
 
 - `Math`
-- `Dynamic Programming`
+- `Dynamic Programming - Knapsack`
 - `Breadth-first Search`
 
 - 不能使用最大的平方数辗转相减, 比如12=4+4+4, 而不是12=9+1+1+1, 而是要把所有的可能的平方数都检查一遍.

@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [DP](#dp)
 
 ## Intro
 
@@ -43,8 +45,16 @@ the answer is guaranteed to fit into signed 32-bit integer
 
 
 
+## Topics
+
+- `Dynamic Programming`
+
+
+
+## DP
+
 - https://leetcode.com/problems/coin-change-2/
-- 为什么要把 coin 的循环放在外面呢?
+- [WHY] 为什么要把 coin 的循环放在外面呢?
 
 
 
@@ -54,7 +64,6 @@ class Solution:
         dp = [0 for i in range(amount+1)]
         dp[0] = 1 #???
         
-        
         for coin in coins:
             for i in range(1, len(dp)): # 外层循环放所有的coin=1
                 if i >= coin:
@@ -62,8 +71,5 @@ class Solution:
                     
         return dp[-1]
 ```
-
-## Topics
-
 
 

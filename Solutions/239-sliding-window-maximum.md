@@ -1,6 +1,8 @@
 - [Intro](#intro)
 - [Topics](#topics)
 - [Queue Monotonous](#queue-monotonous)
+- [DP](#dp)
+- [Brute Force](#brute-force)
 
 ## Intro
 
@@ -37,3 +39,30 @@ Could you solve it in linear time?
 ## Queue Monotonous
 
 - https://leetcode-cn.com/problems/sliding-window-maximum/solution/dan-diao-dui-lie-by-labuladong/
+
+
+
+
+
+## DP
+
+...
+
+
+
+## Brute Force
+
+- 时间复杂度：O(Nk)。其中 N 为数组中元素个数。
+- 空间复杂度：O(N−k+1)，用于输出数组。
+
+
+```py
+class Solution:
+    def maxSlidingWindow(self, nums: 'List[int]', k: 'int') -> 'List[int]':
+        n = len(nums)
+        if n * k == 0:
+            return []
+        
+        return [max(nums[i:i + k]) for i in range(n - k + 1)]
+```
+

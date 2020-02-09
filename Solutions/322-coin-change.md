@@ -38,7 +38,7 @@ You may assume that you have an infinite number of each kind of coin.
   - [陷阱] 如果要拆分的是2, 而最小金额是5, 那么就无法找零. 并且初始化DP也是个问题.
     - 其实如果 i 找不到, 那么 dp[i] 就会保持初始值.
 - https://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/
-
+- https://leetcode-cn.com/problems/coin-change/solution/dong-tai-gui-hua-tao-lu-xiang-jie-by-wei-lai-bu-ke/
 
 
 

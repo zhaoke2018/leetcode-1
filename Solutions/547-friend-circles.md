@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Union Find](#union-find)
 
 ## Intro
 
@@ -41,4 +43,9 @@ If M[i][j] = 1, then M[j][i] = 1.
 - `Depth-first Search`
 - `Union Find`
 
+
+## Union Find
+
+- 对于求连通子图, Union Find 需要遍历两遍, DFS/BFS 只需要遍历一遍.
+  - https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/yi-ge-tong-yong-fang-fa-tuan-mie-6-dao-gu-piao-wen/
 
