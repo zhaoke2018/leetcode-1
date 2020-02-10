@@ -40,4 +40,38 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 - `Tree`
 - `Depth-first Search`
 
+## DFS
+### 自己写的
+```java
+class Solution {
+    int sum;
+    public int sumNumbers(TreeNode root) {
+        sum = 0;
+        dfs(root, 0);
+        return sum;
+    }
+    private void dfs(TreeNode root, int cur) {
+        if (root == null) return;
+        if (root.left == null && root.right == null) {
+            cur = cur * 10 + root.val;
+            sum += cur;
+        }
+        dfs(root.left, cur * 10 + root.val);
+        dfs(root.right, cur * 10 + root.val);
+    }
+}
+```
+### 更简洁的
+```java
+class Solution {
+    public int sumNumbers(TreeNode root) {
+        return dfs(root, 0);
+    }
+    private int dfs(TreeNode root, int cur) {
+        if (root == null) return 0;
+        if (root.left == null && root.right == null) return cur * 10 + root.val;
+        return dfs(root.left, cur * 10 + root.val) + dfs(root.right, cur * 10 + root.val);
+    }
+}
+```
 
