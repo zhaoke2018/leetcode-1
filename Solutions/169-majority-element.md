@@ -1,4 +1,8 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Hash](#hash)
+- [Divide and Conquer](#divide-and-conquer)
+- [Boyer Moore Majority Vote algorithm](#boyer-moore-majority-vote-algorithm)
 
 ## Intro
 
@@ -22,5 +26,41 @@ Output: 2
 - `Array`
 - `Divide and Conquer`
 - `Bit Manipulation`
+- `Boyer Moore Majority Vote algorithm`
+- `Multiple Methods`
 
+- https://leetcode.com/problems/majority-element/discuss/51612/6-Suggested-Solutions-in-C++-with-Explanations
+
+## Hash
+
+```py
+def majorityElements(arr):
+    counter = collections.Counter(arr)
+    return max(counter.keys(), key=counter.get()) # keys 
+```
+
+
+## Divide and Conquer
+
+```py
+def majorityElement(nums):
+    pass
+```
+
+## Boyer Moore Majority Vote algorithm
+
+```py
+# 本解法非常通用
+def majorityElement_boyerMoore(nums):
+    temp,count = 0
+    for i in nums:
+        if i == 0:
+            temp = i
+            count = 1
+        elif x == temp:
+            count += 1
+        else:
+            count -= 1
+    print temp
+```
 

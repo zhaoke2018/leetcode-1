@@ -34,20 +34,58 @@ Could you solve it in linear time?
 - `Heap`
 - `Queue - Monotonous`
 - `Sliding Window`
+- `Dynamic Programming`
 
+- 最优解是?
 
 ## Queue Monotonous
 
 - https://leetcode-cn.com/problems/sliding-window-maximum/solution/dan-diao-dui-lie-by-labuladong/
+- faster than 40%
+- [核心] 基本思想跟 移动窗口 一样, 只不过利用了一个单调队列来处理最大值.
+
+```py
+class Solution:
+    def maxSlidingWindow(self, nums: 'List[int]', k: 'int') -> 'List[int]':
+        monoq = MonotonousQueue()
+        res = []
+        for i in range(len(nums)):
+            if i < k-1: # 初始化, 放入几个元素
+                monoq.append_right(nums[i])
+            else: # 然后每更新一次, 就是用单调队列 返回max
+                monoq.append_right(nums[i])
+                res.append(monoq.max()) # 不能pop出来
+                monoq.pop_left(nums[i+1-k]) # 弹出窗口最前面的元素
+        return res
 
 
+class MonotonousQueue:
+    def __init__(self):
+        self.q = collections.deque()
+
+    def append_right(self, ele): # 单调队列的核心函数: 每次入队的时候, 都保证把之前的小元素都扔掉
+        while self.q and ele > self.q[-1]:
+            del self.q[-1]
+
+        self.q.append(ele)
+
+    def max(self):
+        return self.q[0]
+
+    def pop_left(self, ele):
+        if self.q and self.q[0] == ele:
+            del self.q[0]
+```
 
 
 
 ## DP
 
-...
+```py
+class Solution:
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
 
+```
 
 
 ## Brute Force

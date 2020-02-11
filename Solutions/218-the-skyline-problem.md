@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [JJJ](#jjj)
 
 ## Intro
 
@@ -27,4 +29,37 @@ There must be no consecutive horizontal lines of equal height in the output skyl
 - `Segment Tree`
 - `Line Sweep`
 
+- `Multiple Methods`
 
+
+## JJJ
+
+- 这篇好像讲得不错 http://wlcoding.blogspot.com/2015/05/the-skyline-problem.html
+- https://www.educative.io/edpresso/the-skyline-problem-in-cpp
+- https://medium.com/@dimko1/the-skyline-problem-c999466b7778
+
+```py
+# TODO 优化 拐点只会发生在房子的两端
+def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
+    xs = max([bld[1] for bld in buildings]) + 2 # 表示 last Index 需要+1, 展示 last Index 的变化 也需要+1
+
+    skyline_height = [0 for i in range(xs)] # 每个坐标都有一个 max height
+    res = []
+
+    # 更新天际线
+    for bid in range(len(buildings)):
+        for xx in range(buildings[bid][0], buildings[bid][1]+1): # xx 表示当前建筑的横坐标范围
+            if buildings[bid][2] > skyline_height[xx]:
+                skyline_height[xx] = buildings[bid][2]
+    
+    # 计算转折点
+    for i in range(xs):
+        if skyline_height[i] > skyline_height[i-1]:
+            res.append([i, skyline_height[i]])
+        elif skyline_height[i] < skyline_height[i-1]:
+            res.append([i-1, skyline_height[i]])
+
+    return res
+
+# failed at case: [[0,2147483647,2147483647]] Memory Limit Exceeded
+```

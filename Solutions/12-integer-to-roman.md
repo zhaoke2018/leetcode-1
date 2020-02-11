@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Translate](#translate)
 
 ## Intro
 
@@ -46,23 +48,25 @@ Input: 1994
 Output: "MCMXCIV"
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
-- Int数字转换为罗马数字.`1<n<3999`. https://leetcode.com/problems/integer-to-roman/ Medium
-  - 10以内,IV
-  - 100以内,XL
-  - 1000以内,CD
-  - 10000以内,M
-  - `solution` 从低位到高位依次取余(remainder),然后用字典翻译
-
-```py
-def intToRoman(num):
-    while num > 10:
-        rem = num % 10
-        num = num / 10
-```
 
 ## Topics
 
 - `Math`
-- `String`
+- `String - Translate`
 
 
+## Translate
+
+- [化复杂为简单] 对于 IX 这样诡异的位置导致的异常, 直接用映射表处理! 简直太棒了.
+
+```py
+class Solution:
+    def intToRoman(self, num):
+        values = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ]
+        numerals = [ "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" ]
+        res = ""
+        for n, v in zip(numerals, values): # zip 将两个 list 中对应下标的元素组成 tuple.
+            res += (num // v) * n
+            num %= v 
+        return res
+```

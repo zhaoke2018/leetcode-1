@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Append](#append)
 
 ## Intro
 
@@ -27,5 +29,16 @@ Output:
 - `Array`
 - `Backtracking`
 - `Bit Manipulation`
+- `Multiple Methods`
 
 
+
+## Append
+
+```py
+def subsets(self, nums):
+    res = [[]]
+    for i in nums:
+        res += [item+[i] for item in res]
+    return res
+```
