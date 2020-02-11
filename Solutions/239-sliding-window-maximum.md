@@ -104,3 +104,23 @@ class Solution:
         return [max(nums[i:i + k]) for i in range(n - k + 1)]
 ```
 
+```Java
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        if (nums == null || nums.length == 0 || k == 0) return new int[]{};
+        int[] ans = new int[nums.length - k + 1];
+        for (int i = 0; i < nums.length - k + 1; i++) {
+            ans[i] = max(i, k, nums);
+        }
+        return ans;
+    }
+    private int max(int i, int k, int[] nums) {
+        int maxnum = Integer.MIN_VALUE;
+        for (int j = i; j < i + k; j++) {
+            maxnum = Math.max(maxnum, nums[j]);
+        }
+        return maxnum;
+    }
+}
+```
+
