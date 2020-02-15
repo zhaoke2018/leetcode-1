@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Greedy](#greedy)
 
 ## Intro
 
@@ -25,3 +27,19 @@ One way is to shoot one arrow for example at x = 6 (bursting the balloons [2,8] 
 - `Greedy`
 
 
+## Greedy
+
+- [解释] 见注释
+
+```py
+class Solution:
+    def findMinArrowShots(self, points: List[List[int]]) -> int:
+        end = float('-inf') # 在循环中, end 表示 max(之前节点的终点)
+        res = 0
+        for ball in sorted(points, key=lambda x: x[1]): # 默认 升序
+            # 所以当 “节点的起点” 比 “max(之前节点的终点)” 小, 说明这两个区间有重叠!
+            if ball[0] > end: # if 当前坐标起点 > end
+                res += 1
+                end = ball[1] # end = 当前坐标终点
+        return res
+```

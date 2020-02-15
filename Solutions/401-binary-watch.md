@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Backtracking](#backtracking)
 
 ## Intro
 
@@ -30,6 +32,10 @@ The minute must be consist of two digits and may contain a leading zero, for exa
 
 - [陷阱] 用 num 构建所有的时间.
   - 应该把所有的时间都列出来, 然后看是否满足条件.
+
+- [] python知识点
+1. count() 参数必须是字符串.
+2. bin() 返回的格式是 '0b11' 其实就是字符串'11', 只是多一个二进制标记而已.
 
 
 ```py

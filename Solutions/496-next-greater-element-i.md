@@ -1,6 +1,7 @@
 - [Intro](#intro)
 - [Topics](#topics)
 - [Monotonous](#monotonous)
+- [Brute Force](#brute-force)
 
 ## Intro
 
@@ -43,3 +44,42 @@ The length of both nums1 and nums2 would not exceed 1000.
 ## Monotonous
 
 - Labuladong https://leetcode-cn.com/problems/next-greater-element-i/solution/dan-diao-zhan-jie-jue-next-greater-number-yi-lei-w/
+
+
+```py
+class Solution:
+    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        # 单调栈的思路如何理解?
+```
+
+
+
+
+## Brute Force
+
+- faster than 5%, 太可怜了!
+- Time O(N^2)
+
+
+```py
+class Solution:
+    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        res = []
+        for key in nums1:
+            index = -1
+            for jj in range(len(nums2)):
+                # 找到下标
+                if key == nums2[jj]:
+                    index = jj
+                
+                # 找到下标之后, 开始找更大的数
+                if index != -1 and nums2[jj] > nums2[index]:
+                    res.append(nums2[jj])
+                    break
+                
+                # 找到最后也没找到
+                if jj == len(nums2)-1 and nums2[jj] <= nums2[index]:
+                    res.append(-1)
+                
+        return res
+```

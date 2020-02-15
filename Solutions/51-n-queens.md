@@ -1,6 +1,8 @@
 - [Intro](#intro)
-- [我自己写的答案](#%e6%88%91%e8%87%aa%e5%b7%b1%e5%86%99%e7%9a%84%e7%ad%94%e6%a1%88)
-- [参考答案](#%e5%8f%82%e8%80%83%e7%ad%94%e6%a1%88)
+- [Topics](#topics)
+- [Backtracking](#backtracking)
+  - [to debug](#to-debug)
+  - [简单版](#%e7%ae%80%e5%8d%95%e7%89%88)
 
 ## Intro
 
@@ -40,21 +42,50 @@ Explanation: There exist two distinct solutions to the 4-queens puzzle as shown 
 - `Backtracking`
 
 
-## 我自己写的答案
+
+## Backtracking
+
+```py
+class Solution:
+    def solveNQueens(self, n: int) -> List[List[str]]:
+        res = []
+        self.dfs([-1]*n, 0, [], res)
+        return res
+    
+    # nums: 一维数组, 表示 Queen 在每行的位置
+    # index: 当前处理的行
+    def dfs(self, nums, index, path, res):
+        if index == len(nums):
+            res.append(path)
+            return  # backtracking
+        for i in range(len(nums)): # 对于每行, 不断试探应该放在哪里
+            nums[index] = i 
+            if self.valid(nums, index):  # pruning
+                tmp = "."*len(nums)
+                self.dfs(nums, index+1, path+[tmp[:i]+"Q"+tmp[i+1:]], res)
+
+    # 在 nth 行是否能放 Queen
+    def valid(self, nums, n):
+        for i in range(n): # 检查前n行数据
+            diagnal_attack = abs(nums[i]-nums[n]) == n-i
+            vertical_attack = nums[i] == nums[n]
+            if diagnal_attack or vertical_attack:
+                return False
+        return True
+
+
+sol = Solution().solveNQueens(4)
+print(sol)
+```
+
+### to debug
 
 - 是否通过?
 
 
-
-
-
+- [重点] 本题重点在于如何记录中间过程. 一维数组就可以记录所有内容了.
 
 ```py
-from typing import List
-"""
-知识点
-1. 本题重点在于如何记录中间过程. 一维数组就可以记录所有内容了.
-"""
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         res = []
@@ -86,47 +117,22 @@ class Solution:
             if diagnal_attack or vertical_attack:
                 return False
         return True
-
-
-sol = Solution().solveNQueens(4) 
-# print(sol)
 ```
 
-
-## 参考答案
+### 简单版
 
 ```py
-
-from typing import List
-
 class Solution:
-    def solveNQueens(self, n: int) -> List[List[str]]:
-        res = []
-        self.dfs([-1]*n, 0, [], res)
-        return res
-    
-    # nums: 一维数组, 表示 Queen 在每行的位置
-    # index: 当前处理的行
-    def dfs(self, nums, index, path, res):
-        if index == len(nums):
-            res.append(path)
-            return  # backtracking
-        for i in range(len(nums)): # 对于每行, 不断试探应该放在哪里
-            nums[index] = i 
-            if self.valid(nums, index):  # pruning
-                tmp = "."*len(nums)
-                self.dfs(nums, index+1, path+[tmp[:i]+"Q"+tmp[i+1:]], res)
-
-    # 在 nth 行是否能放 Queen
-    def valid(self, nums, n):
-        for i in range(n): # 检查前n行数据
-            diagnal_attack = abs(nums[i]-nums[n]) == n-i
-            vertical_attack = nums[i] == nums[n]
-            if diagnal_attack or vertical_attack:
-                return False
-        return True
-
-
-sol = Solution().solveNQueens(4)
-print(sol)
+    def solveNQueens(self, n):
+        def DFS(queens, xy_dif, xy_sum):
+            p = len(queens)
+            if p==n:
+                result.append(queens)
+                return None
+            for q in range(n):
+                if q not in queens and p-q not in xy_dif and p+q not in xy_sum: 
+                    DFS(queens+[q], xy_dif+[p-q], xy_sum+[p+q])  
+        result = []
+        DFS([],[],[])
+        return [ ["."*i + "Q" + "."*(n-i-1) for i in sol] for sol in result]
 ```

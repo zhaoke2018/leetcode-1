@@ -27,6 +27,8 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 ## Recursion
 
+- 看代码可以理解, 可是如何自己推出来呢?
+
 
 - [看图理解单链表的反转](http://blog.csdn.net/feliciafay/article/details/6841115)
 - 递归需要系统堆栈，所以空间消耗要比非递归代码要大很多.
@@ -47,22 +49,58 @@ ListNode* reverseList(ListNode* head) {
 
 
 
+- faster than 55%
+
+```py
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        if not head or not head.next:
+            return head
+        pre = head
+        head = self.reverseList(pre.next)
+        pre.next.next = pre
+        pre.next = None
+        return head
+```
+
+
+
+
 ## Iteration
 
 
+- 12ms, faster than 42%
 
 ```csharp
-ListNode* reverseList(ListNode* head) {
-    ListNode *next = NULL; // 这个next和pre是调换前位置的名字.用来固定相对节点,方便指来指去.
-    ListNode *pre = NULL; // 这个初始化妙!
-    while(head != NULL){
-        // 每次循环只需要处理一个->next指向即可,不用两头都处理.
-        next = head->next;
-        head->next = pre; // 关键一指,将->next指向之前的上家.
-        pre = head;
-        head = next;
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode *next = NULL; // 这个next和pre是调换前位置的名字.用来固定相对节点,方便指来指去.
+        ListNode *pre = NULL; // 这个初始化妙!
+        while(head != NULL){
+            // 每次循环只需要处理一个->next指向即可,不用两头都处理.
+            next = head->next;
+            head->next = pre; // 关键一指,将->next指向之前的上家.
+            pre = head;
+            head = next;
+        }
+        return pre;
+        // 从本题可以总结出一种写程序的方式,先写关键的一个操作,然后根据操作补足条件!
     }
-    return pre;
-    // 从本题可以总结出一种写程序的方式,先写关键的一个操作,然后根据操作补足条件!
-}
+};
+```
+
+
+- 28ms, faster than 95%
+
+```py
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        nexto = pre = None
+        while head:
+            nexto = head.next
+            head.next = pre
+            pre = head
+            head = nexto
+        return pre
 ```
