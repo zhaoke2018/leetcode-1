@@ -76,7 +76,31 @@ class MonotonousQueue:
         if self.q and self.q[0] == ele:
             del self.q[0]
 ```
-
+- 在Java里有种数据结构叫双端队列，可以直接拿来用，思路和单调队列是一样的。
+```java
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        if (nums == null || k <= 0) return new int[0];
+        int len = nums.length;
+        int ri = 0;
+        int[] ans = new int[len - k + 1];
+        Deque<Integer> deq = new ArrayDeque<>();
+        for (int i = 0; i < len; i++) {
+            while (!deq.isEmpty() && deq.peekFirst() < i - k + 1) {
+                deq.pollFirst();
+            }
+            while (!deq.isEmpty() && nums[deq.peekLast()] < nums[i]) {
+                deq.pollLast();
+            }
+            deq.offer(i);
+            if (i >= k - 1) {
+            ans[ri++] = nums[deq.peekFirst()];
+            }
+        }
+        return ans;
+    }
+}
+```
 
 
 ## DP
