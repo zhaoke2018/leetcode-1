@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 - [Recursion](#recursion)
 - [Recursion with unittest](#recursion-with-unittest)
 
@@ -37,6 +38,7 @@ Output:
 
 
 - Python 直接将字符串转置的复杂度是多少?
+- https://leetcode.com/problems/palindrome-partitioning/discuss/41973/Python-recursiveiterative-backtracking-solution
 
 
 ```py

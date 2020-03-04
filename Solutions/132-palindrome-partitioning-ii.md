@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 - [DP](#dp)
   - [Memo Palindrome](#memo-palindrome)
 - [Recursion](#recursion)
