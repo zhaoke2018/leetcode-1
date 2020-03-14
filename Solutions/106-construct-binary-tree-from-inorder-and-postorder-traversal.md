@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Recursion](#recursion)
 
 ## Intro
 
@@ -28,3 +30,21 @@ Return the following binary tree:
 - `Depth-first Search`
 
 
+## Recursion
+
+
+```py
+class Solution:
+    def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
+        # inorder: left root right
+        # postorder: left right root
+        if not inorder:
+            return None
+        root = TreeNode(postorder[-1])
+
+        idx = inorder.index(postorder[-1])
+        
+        root.left = self.buildTree(inorder[:idx], postorder[:idx])
+        root.right = self.buildTree(inorder[idx+1:], postorder[idx:-1])
+        return root
+```

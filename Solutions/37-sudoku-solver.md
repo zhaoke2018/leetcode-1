@@ -1,4 +1,5 @@
 - [Intro](#intro)
+- [Topics](#topics)
 - [Backtacking by John](#backtacking-by-john)
 - [Backtracking by Leetcode](#backtracking-by-leetcode)
 
