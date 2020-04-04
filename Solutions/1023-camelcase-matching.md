@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Trie](#trie)
+- [Regex](#regex)
 
 ## Intro
 
@@ -44,5 +47,26 @@ All strings consists only of lower and upper case English letters.
 
 - `String`
 - `Trie`
+- `Regex`
+
+## Trie
+
+- Trie 的题目都很有意思, 实用性很强
 
 
+```py
+
+def camelCaseMatching(self, queries: List[str], pattern: str):
+    # 针对什么建立 trie 呢
+
+```
+
+
+## Regex
+
+
+```py
+
+
+
+```

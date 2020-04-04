@@ -47,9 +47,11 @@ Explanation: You could form "10", but then you'd have nothing left. Better form 
 - 给你m个0,n个1,还有一个字符串数组.看你能拼出多少个array里面的字符串,返回总数.(这些0和1都只能用一次) 
 - 转化:物品ith的二维费用问题 (并不是限定使用次数的多重背包问题)
 
+- 这里的 1 和 0 相当于两个背包, 他们的个数相当于背包的容量.
 
 - [WHY] 背包问题使用 bottom-up 可以二维变一维.
 - [WHY] 为什么要逆序遍历
+  - 如果正序反倒会出错, 这也太奇葩了.
 - 等等, 这个逆序不就是 bottom-up 吗?
   - https://leetcode.com/problems/ones-and-zeroes/discuss/121876/C++-DP-Knapsack-Approach
   
@@ -67,6 +69,7 @@ class Solution:
             count_zero = counter['0']
             count_one = counter['1']
             
+            # 从最大空间 到最小空间
             for zz in range(m, count_zero-1, -1): # Backwards iteration
                 for oo in range(n, count_one-1, -1):
             # for zz in range(count_zero, m+1): # Backwards iteration
@@ -75,7 +78,6 @@ class Solution:
 
         return dp[m][n]
 ```
-
 
 
 
