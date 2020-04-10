@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Array](#array)
 
 ## Intro
 
@@ -22,3 +24,22 @@ Could you optimize your algorithm to use only O(k) extra space?
 - `Array`
 
 
+
+## Array
+
+- 太简单了, 唯一值得提的就是本题可以将 edge case 融入主流程.
+
+```py
+class Solution:
+    def getRow(self, rowIndex: int) -> List[int]:
+        
+        lastRow = [1]
+        for row in range(rowIndex):
+            thisRow = [1]
+            for idx in range(row):
+                if idx+1 < len(lastRow):
+                    thisRow.append(lastRow[idx] + lastRow[idx+1])
+            thisRow.append(1)
+            lastRow = thisRow
+        return lastRow
+```

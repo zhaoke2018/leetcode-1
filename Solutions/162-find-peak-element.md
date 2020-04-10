@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Linear](#linear)
 
 ## Intro
 
@@ -30,3 +32,14 @@ Your solution should be in logarithmic complexity.
 - `Binary Search`
 
 
+## Linear
+
+```py
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+        
+        for i in range(len(nums)-1):
+            if nums[i] > nums[i+1]: # 技巧, 只需要判断一侧即可!!!
+                return i
+        return len(nums) - 1
+```

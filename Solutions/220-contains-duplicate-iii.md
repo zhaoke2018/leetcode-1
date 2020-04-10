@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Ordered Map](#ordered-map)
+- [Bucket Sort](#bucket-sort)
 
 ## Intro
 
@@ -33,3 +36,29 @@ Output: false
 - `Ordered Map`
 
 
+## Ordered Map
+
+- 这个好像涉及一些证明.....
+
+```py
+class Solution:
+    def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:
+        if k < 1 or t < 0:
+            return False
+        dic = collections.OrderedDict()
+        for n in nums:
+            key = n if not t else n // t
+            for m in (dic.get(key - 1), dic.get(key), dic.get(key + 1)):
+                if m is not None and abs(n - m) <= t:
+                    return True
+            if len(dic) == k:
+                dic.popitem(False)
+            dic[key] = n
+        return False
+```
+
+
+## Bucket Sort
+
+
+- 高赞回答都是 bucket sort.

@@ -32,43 +32,35 @@ from typing import List
 
 # # https://kite.com/python/answers/how-to-create-a-trie-in-python
 
+import collections
+import heapq
 
-
+from collections import Counter
 class Solution:
-    def generate(self, numRows: int) -> List[List[int]]:
-        res = [[1]]
+    def minWindow(self, s: str, t: str) -> str:
         
-        if numRows < 1:
-            return []
-        
-        for row in range(1, numRows):
-            thisRow = [1]
-            for idx in range(row): # don't calculate the first row
-                # TODO calculate this row numbers
-                lastRow = res[row-1]
-                # if row == 1: # 计算第二行
-                #     print('last row', lastRow)
-                #     print('second row', lastRow[idx], lastRow[idx+1]) # python 里, 数组的负下标不会越界, 正下标才会越界!
+        def qualify(count, ss):
+            patcount = collections.Counter(ss)
+            for key in count.keys():
+                if patcount[key] < count[key]:
+                    return False
+            return True
 
-                # 取数组下标如何能够简单一点呢?
-                if idx + 1 < len(lastRow): # 不能直接取下标, 不然会报错
-                # if lastRow[idx] and lastRow[idx+1]:
-                    thisRow.append(lastRow[idx] + lastRow[idx+1])
-            
-            thisRow.append(1)
-            res.append(thisRow)
-        
-        return res
+        l, r = 0, 0
+        minwin = s
+        count = collections.Counter(t)
 
-sol = Solution().generate(5)
+        # 扩张到count全部满足为止, 然后收缩到刚好不满足为止
+        while r<len(s): # 这个条件有点不妥
+            while not qualify(count, s[l:r]):
+                r += 1
+            while qualify(count, s[l:r]):
+                l += 1
+            if len(minwin) > r-l:
+                minwin = s[l-1:r]
+        return minwin
+
+
+sol = Solution().minWindow("ADOBECODEBANC", "ABC")
+
 print(sol)
-
-'''
-[
-[1], row=0 不计算
-[1,1], row=1 不计算
-[1,2,1], row=2 
-[1,3,3,1], row=3
-[1,4,6,4,1] row=4
-]
-'''

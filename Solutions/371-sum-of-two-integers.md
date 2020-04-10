@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Bit](#bit)
 
 ## Intro
 
@@ -26,3 +28,14 @@ Output: 1
 - `Bit Manipulation`
 
 
+
+
+## Bit
+
+- 还是不懂
+
+```js
+var getSum = function(a, b) {
+  return b==0 ? a : getSum(a^b, (a&b)<<1)  
+};
+```

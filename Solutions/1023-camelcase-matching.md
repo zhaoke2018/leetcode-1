@@ -64,6 +64,7 @@ def camelCaseMatching(self, queries: List[str], pattern: str):
 
 ## Regex
 
+- 正则的方法简单些...
 
 ```py
 

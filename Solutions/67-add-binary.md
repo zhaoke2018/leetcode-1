@@ -1,5 +1,6 @@
 - [Intro](#intro)
 - [Topics](#topics)
+- [Normal](#normal)
 - [Bit](#bit)
 
 ## Intro
@@ -23,6 +24,15 @@ Output: "10101"
 - `Math`
 - `String`
 
+## Normal
+
+```py
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        a = int(a, 2)
+        b = int(b, 2)
+        return bin(a+b)[2:]
+```
 
 ## Bit
 

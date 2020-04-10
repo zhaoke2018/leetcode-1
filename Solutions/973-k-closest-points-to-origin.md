@@ -1,4 +1,6 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Heap](#heap)
 
 ## Intro
 
@@ -43,3 +45,15 @@ Note:
 - `Sort`
 
 
+## Heap
+
+- 使用reduce将横纵坐标聚合
+- 将 list 转化为 tuple 就可以作为 dict 的 key 了.
+
+```py
+import functools
+class Solution:
+    def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
+        euc = {tuple(vector): functools.reduce(lambda x,y: x**2+y**2, vector) for vector in points}
+        return heapq.nsmallest(K, euc.keys(), euc.get)
+```

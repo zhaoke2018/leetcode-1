@@ -1,4 +1,7 @@
 - [Intro](#intro)
+- [Topics](#topics)
+- [Heap](#heap)
+- [Brute Force](#brute-force)
 
 ## Intro
 
@@ -28,3 +31,22 @@ You may assume k is always valid, 1 ≤ k ≤ n2.
 - `Heap`
 
 
+
+## Heap
+
+- [python要点] 注意使用 list comprehension 压平二维数组的时候, 要先处理二维.
+
+
+```py
+class Solution:
+    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
+        # flaten 2d list
+        matrix = [i for level in matrix for i in level]
+        # build heap
+        return heapq.nsmallest(k, matrix)[-1]
+```
+
+
+## Brute Force
+
+- 不能一行行遍历, 因为行与行之间不是有序的.
