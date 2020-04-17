@@ -1,5 +1,6 @@
 - [Intro](#intro)
-- [Recursion By John](#recursion-by-john)
+- [Topics](#topics)
+- [Recursion](#recursion)
 
 ## Intro
 
@@ -26,7 +27,19 @@ return its depth = 3.
 - `Depth-first Search`
 
 
-## Recursion By John
+## Recursion
+
+- 要记得在 children 里面取max.
+- 需要判断的节点, 只有三种情况.
+```py
+if not root:
+    # bye bye
+else:
+    if not children:
+        # 深度计算到这里就可以了
+    else:
+        # 继续遍历
+```
 
 
 
